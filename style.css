@@ -1,0 +1,63 @@
+body {
+    display: grid;
+    gap: 50px;
+    background-image: url('resources/images/hq/02.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+.title {
+    font-size: 22px;
+    margin-top: 30px;
+}
+.picture {
+    border-radius: 50%;
+    border: 3px solid rainbow;
+    margin-top: 30px;
+    text-align: right;
+}
+.paragraph {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.icon {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
+.buttons {
+    display: none;
+    margin-top: 30px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+.buttons button {
+    font-size: 12px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+.blog-button {
+    font-size: 12px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.icon:hover {
+    background-color: #c2c2c2;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
