@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🎭</title>
+  <style>
+    body {
+      background-image: url('resources/images/hq/02.png');
+      background-size: cover;
+      font-family: sans-serif;
+      background-repeat: no-repeat;
+      color: white;
+      text-align: center;
+    }
+    .title {
+      font-size: 22px;
+      margin-top: 30px;
+    }
+    .picture {
+      border-radius: 50%;
+      border: 3px solid rainbow;
+      margin-top: 30px;
+      text-align: right;
+    }
+    .paragraph {
+      font-size: 18px;
+      margin-top: 30px;
+    }
+    .icon {
+      width: 40px;
+      height: 40px;
+      margin-top: 30px;
+    }
+    .buttons {
+      display: none;
+      margin-top: 30px;
+    }
+    .buttons button {
+      font-size: 12px;
+      width: 40px;
+      height: 40px;
+      border: none;
+      cursor: pointer;
+    }
+    .blog-button {
+      font-size: 12px;
+      width: 40px;
+      height: 40px;
+      border: none;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="title"></h1>
+  <p class="paragraph"></p>
+  <img class="icon" src="resources/images/folder.png" alt="Icon" onclick="showButtons()">
+  <div class="buttons">
+    <button onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">Blog</button>
+    <button onclick="window.open('https://github.com/vim-clown')">GitHub</button>
+    <button onclick="window.open('')">SC</button>
+  </div>
+  <script>
+    function showButtons() {
+      var buttons = document.querySelector('.buttons');
+      if (buttons.style.display === 'none') {
+        buttons.style.display = 'block';
+      } else {
+        buttons.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
