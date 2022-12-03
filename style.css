@@ -8,11 +8,17 @@ body {
     font-family: sans-serif;
     background-repeat: no-repeat;
     color: white;
-    text-align: center;
 }
 .title {
-    font-size: 22px;
+    display: grid;
+    font-size: 12px;
     margin-top: 30px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color: #000;
+
 }
 .picture {
     border-radius: 50%;
@@ -22,48 +28,53 @@ body {
 }
 .paragraph {
     font-size: 18px;
-    margin-top: 30px;
-}
-.icon {
+    color: #000;
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.icon {
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
     width: 40px;
     height: 40px;
-    margin-top: 30px;
     image-rendering: optimizeQuality;
-    transition: transform 0.5s;
+    transition: transform 0.09s;
 }
 .buttons {
     display: none;
-    margin-top: 30px;
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
 }
+
 .buttons button {
     font-size: 12px;
-    width: 50px;
-    height: 50px;
-    border: none;
+    width: 220px;
+    height: 30px;
+    border: 1px solid;
+    border-style: dotted;
     cursor: pointer;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    margin-right: 199%;
+    margin-left: 1%;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: transparent;
+
 }
-.blog-button {
-    font-size: 12px;
-    width: 50px;
-    height: 50px;
-    border: none;
-    cursor: pointer;
-    margin-top: 30px;
-}
+
 .icon:hover {
-    background-color: #c2c2c2;
+    background-color: #dbdbdb;
     transform: translateY(-5px);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.buttons button:hover{
+    background-color: #ebebeb;
 }

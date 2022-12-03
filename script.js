@@ -4,7 +4,7 @@ function showButtons(icon) {
       // Rotate the image by 90 degrees
       icon.classList.add("rotated");
       icon.style.transform = "rotate(90deg)";
-      buttons.style.display = 'block';
+      buttons.style.display = 'grid';
     } else {
       buttons.style.display = 'none';
       // Rotate the image back to its original orientation
