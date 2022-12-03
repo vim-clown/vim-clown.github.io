@@ -27,19 +27,21 @@ body {
 .icon {
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
     width: 40px;
     height: 40px;
     margin-top: 30px;
+    image-rendering: optimizeQuality;
+    transition: transform 0.5s;
 }
 .buttons {
     display: none;
     margin-top: 30px;
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 7;
-    grid-row-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 .buttons button {
     font-size: 12px;
@@ -47,6 +49,10 @@ body {
     height: 50px;
     border: none;
     cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 .blog-button {
     font-size: 12px;
