@@ -5,7 +5,6 @@ body {
     background-image: url('resources/images/hq/02.png');
     background-size:contain;
     background-attachment: fixed;
-    viewport-fit:initial;
     background-position: left;
     font-family: sans-serif;
     background-repeat: no-repeat;
@@ -151,7 +150,7 @@ body {
 
 .buttons2 button {
     font-size: 12px;
-    width: 100px;
+    width: 80px;
     height: 20px;
     border: 1px solid;
     cursor: pointer;
