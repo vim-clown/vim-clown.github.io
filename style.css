@@ -5,7 +5,7 @@ body {
     background-image: url('resources/images/hq/02.png');
     background-size:contain;
     background-attachment: fixed;
-    background-position: left;
+    background-position: center;
     font-family: sans-serif;
     background-repeat: no-repeat;
     color: white;
@@ -60,7 +60,20 @@ body {
     grid-row-end: 4;
     color: #000;
     background-attachment: fixed;
-    padding-top: 20px;
+    padding-top: 24px;
+
+}
+.up {
+    display: none;
+    font-size: 7.5px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    color: #000;
+    background-attachment: fixed;
+    padding-top: 24px;
+    margin-left: 15px;
 
 }
 .title3 {
@@ -71,8 +84,23 @@ body {
     grid-row-start: 3;
     grid-row-end: 3;
     color: #000;
+    margin-top: 36px;
     background-attachment: fixed;
-    padding-top: 20px;
+    padding-top: 24px;
+
+}
+.up2 {
+    display: none;
+    font-size: 7.5px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    color: #000;
+    margin-top: 36px;
+    background-attachment: fixed;
+    padding-top: 24px;
+    margin-left: 15px;
 
 }
 .picture {
@@ -111,6 +139,7 @@ body {
     grid-row-end: 3;
     width: 40px;
     height: 40px;
+    margin-top: 20px;
     image-rendering: optimizeQuality;
     transition: transform 0.09s;
     background-attachment: fixed;

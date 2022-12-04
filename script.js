@@ -6,7 +6,7 @@ function showButtons(icon) {
 
     var buttons1 = document.querySelector('.buttons2');
     var title1 = document.querySelector('.title3');
-
+    var up = document.querySelector('.up');
     var ic = document.querySelector('.icon3');
 
     if (buttons.style.display === 'none') {
@@ -16,6 +16,7 @@ function showButtons(icon) {
       title.style.display = 'none'
       root.style.display = 'none'
       titleb.style.display = 'grid'
+      up.style.display = 'grid'
 
       buttons1.style.display = 'none';
       title1.style.display = 'none';
@@ -31,6 +32,7 @@ function showButtons(icon) {
       buttons1.style.display = 'none';
       title1.style.display = 'grid';
       ic.style.display = 'grid'
+      up.style.display = 'none'
     }
 }
 
@@ -42,6 +44,7 @@ function showEmpty(icon) {
 
   var buttons1 = document.querySelector('.buttons');
   var title1 = document.querySelector('.title2');
+  var up2 = document.querySelector('.up2');
 
   var ic = document.querySelector('.icon');
 
@@ -55,7 +58,8 @@ function showEmpty(icon) {
 
     buttons1.style.display = 'none';
     title1.style.display = 'none';
-    ic.style.display = 'none' 
+    ic.style.display = 'none'
+    up2.style.display = 'grid'
 
 
   } else {
@@ -69,5 +73,6 @@ function showEmpty(icon) {
     buttons1.style.display = 'none';
     title1.style.display = 'grid';
     ic.style.display = 'grid'
+    up2.style.display = 'none'
   }
 }
