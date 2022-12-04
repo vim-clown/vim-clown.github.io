@@ -10,6 +10,10 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
+@-ms-viewport{
+    width: device-width;
+    height: device-height;
+  }
 .title {
     display: grid;
     font-size: 12px;
