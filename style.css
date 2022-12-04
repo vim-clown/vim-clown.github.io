@@ -54,10 +54,10 @@ body {
 .title2 {
     display: grid;
     font-size: 7.5px;
-    grid-column-start: 1;
+    grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
     color: #000;
     background-attachment: fixed;
     padding-top: 20px;
@@ -84,10 +84,10 @@ body {
 
 .icon {
     display:grid;
-    grid-column-start: 1;
+    grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
     width: 40px;
     height: 40px;
     image-rendering: optimizeQuality;
@@ -117,10 +117,10 @@ body {
 }
 .buttons {
     display: none;
-    grid-column-start: 1;
+    grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
     background-attachment: fixed;
     
 }
