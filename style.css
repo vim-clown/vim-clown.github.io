@@ -3,17 +3,19 @@ body {
     row-gap: 20px;
     column-gap: 0px;
     background-image: url('resources/images/hq/02.png');
-    background-size:contain;
+    background-size: contain;
     background-attachment: fixed;
     background-position: center;
     font-family: sans-serif;
     background-repeat: no-repeat;
     color: white;
 }
-@-ms-viewport{
+
+@-ms-viewport {
     width: device-width;
     height: device-height;
-  }
+}
+
 .title {
     display: grid;
     font-size: 12px;
@@ -39,6 +41,7 @@ body {
     background-attachment: fixed;
 
 }
+
 .titlec {
     display: none;
     font-size: 12px;
@@ -51,6 +54,7 @@ body {
     background-attachment: fixed;
 
 }
+
 .title2 {
     display: grid;
     font-size: 7.5px;
@@ -63,6 +67,7 @@ body {
     padding-top: 24px;
 
 }
+
 .up {
     display: none;
     font-size: 7.5px;
@@ -76,6 +81,7 @@ body {
     margin-left: 15px;
 
 }
+
 .title3 {
     display: grid;
     font-size: 7.5px;
@@ -89,6 +95,7 @@ body {
     padding-top: 24px;
 
 }
+
 .up2 {
     display: none;
     font-size: 7.5px;
@@ -103,6 +110,7 @@ body {
     margin-left: 15px;
 
 }
+
 .picture {
     border-radius: 50%;
     border: 3px solid rainbow;
@@ -111,7 +119,7 @@ body {
 }
 
 .icon {
-    display:grid;
+    display: grid;
     grid-column-start: 0;
     grid-column-end: 1;
     grid-row-start: 4;
@@ -122,8 +130,9 @@ body {
     transition: transform 0.09s;
     background-attachment: fixed;
 
-   
+
 }
+
 .icon2 {
     width: 12px;
     height: 12px;
@@ -131,8 +140,9 @@ body {
     background-attachment: fixed;
     padding-right: 8px;
 }
+
 .icon3 {
-    display:grid;
+    display: grid;
     grid-column-start: 0;
     grid-column-end: 1;
     grid-row-start: 3;
@@ -144,6 +154,7 @@ body {
     transition: transform 0.09s;
     background-attachment: fixed;
 }
+
 .buttons {
     display: none;
     grid-column-start: 0;
@@ -151,7 +162,7 @@ body {
     grid-row-start: 4;
     grid-row-end: 4;
     background-attachment: fixed;
-    
+
 }
 
 .buttons2 {
@@ -161,13 +172,14 @@ body {
     grid-row-start: 3;
     grid-row-end: 3;
     background-attachment: fixed;
-    
+    margin-top: 20px;
+
 }
 
 
 .buttons button {
     font-size: 12px;
-    width: 80px;
+    width: 100px;
     height: 20px;
     border: 1px solid;
     cursor: pointer;
@@ -183,7 +195,7 @@ body {
 
 .buttons2 button {
     font-size: 12px;
-    width: 80px;
+    width: 100px;
     height: 20px;
     border: 1px solid;
     cursor: pointer;
@@ -202,15 +214,18 @@ body {
     transform: translateY(-5px);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 }
+
 .icon3:hover {
     background-color: #30006431;
     transform: translateY(-5px);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 }
 
-.buttons button:hover{
+.buttons button:hover {
     background-color: #30006431;
 }
-.buttons2 button:hover{
-    background-color: #30006431;;
+
+.buttons2 button:hover {
+    background-color: #30006431;
+    ;
 }
