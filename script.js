@@ -87,7 +87,7 @@ function sprinkleImages() {
   container.style.width = "100%";
   container.style.height = "100%";
 
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 2; i++) {
     var sprinkle = document.createElement("img");
     sprinkle.src = "resources/images/spider2.gif";
     sprinkle.classList.add("sprinkle");
@@ -109,11 +109,11 @@ function sprinkleImages() {
   } else {
     sprinkleImages.counter++;
   }
-  if (sprinkleImages.counter < 8) {
+  if (sprinkleImages.counter < 10) {
     sprinkleImages();
   } else {
     var audio = new Audio("resources/audio/💀.mp3");
-    audio.volume = 0.1;
+    audio.volume = 0.05;
     audio.play();
   }
 }
