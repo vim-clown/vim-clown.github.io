@@ -18,7 +18,7 @@ function showButtons(icon) {
     root.style.display = 'none';
     titleb.style.display = 'grid';
     up.style.display = 'grid';
-    bm.style.transform = "rotate(180deg)";
+    bm.style.transform = "rotate(360deg)";
 
     buttons1.style.display = 'none';
     title1.style.display = 'none';
@@ -59,7 +59,7 @@ function showEmpty(icon) {
     title.style.display = 'none';
     root.style.display = 'none';
     titlec.style.display = 'grid';
-    bm.style.transform = "rotate(180deg)";
+    bm.style.transform = "rotate(360deg)";
 
     buttons1.style.display = 'none';
     title1.style.display = 'none';
