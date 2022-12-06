@@ -28,7 +28,7 @@ body {
     background-attachment: fixed;
     margin-bottom: 20px;
     background: linear-gradient(to right, #ff000048, #be8f8f41);
-    
+
 
 }
 
@@ -248,8 +248,7 @@ body {
     background: #ca000070;
     color: rgb(255, 255, 255);
 }
+
 .bm:hover {
-    transform: translate(100px, 100px);
     transform: rotate(360deg);
 }
-

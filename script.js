@@ -3,6 +3,7 @@ function showButtons(icon) {
   var title = document.querySelector('.title2');
   var root = document.querySelector('.title');
   var titleb = document.querySelector('.titleb');
+  var bm = document.querySelector('.bm');
 
   var buttons1 = document.querySelector('.buttons2');
   var title1 = document.querySelector('.title3');
@@ -17,6 +18,7 @@ function showButtons(icon) {
     root.style.display = 'none';
     titleb.style.display = 'grid';
     up.style.display = 'grid';
+    bm.style.transform = "rotate(180deg)";
 
     buttons1.style.display = 'none';
     title1.style.display = 'none';
@@ -28,6 +30,7 @@ function showButtons(icon) {
     icon.style.transform = "rotate(0deg)";
     titleb.style.display = 'none';
     root.style.display = 'grid';
+    bm.style.transform = "rotate(0deg)";
 
     buttons1.style.display = 'none';
     title1.style.display = 'grid';
@@ -41,6 +44,7 @@ function showEmpty(icon) {
   var title = document.querySelector('.title3');
   var root = document.querySelector('.title');
   var titlec = document.querySelector('.titlec');
+  var bm = document.querySelector('.bm');
 
   var buttons1 = document.querySelector('.buttons');
   var title1 = document.querySelector('.title2');
@@ -55,6 +59,7 @@ function showEmpty(icon) {
     title.style.display = 'none';
     root.style.display = 'none';
     titlec.style.display = 'grid';
+    bm.style.transform = "rotate(180deg)";
 
     buttons1.style.display = 'none';
     title1.style.display = 'none';
@@ -69,6 +74,7 @@ function showEmpty(icon) {
     icon.style.transform = "rotate(0deg)";
     titlec.style.display = 'none';
     root.style.display = 'grid';
+    bm.style.transform = "rotate(0deg)";
 
     buttons1.style.display = 'none';
     title1.style.display = 'grid';
@@ -87,33 +93,48 @@ function sprinkleImages() {
   container.style.width = "100%";
   container.style.height = "100%";
 
-  for (var i = 0; i < 2; i++) {
+  for (var i = 1; i < 2; i++) {
+    var bm = document.querySelector('.bm');
     var sprinkle = document.createElement("img");
     sprinkle.src = "resources/images/spider2.gif";
     sprinkle.classList.add("sprinkle");
-    var x = Math.floor(Math.random() * window.innerWidth);
-    var y = Math.floor(Math.random() * window.innerHeight);
+    // var x = Math.floor(Math.random() * window.innerWidth);
+    // var y = Math.floor(Math.random() * window.innerHeight);
     sprinkle.style.position = "absolute";
-    sprinkle.style.left = x + "px";
-    sprinkle.style.top = y + "px";
+    sprinkle.style.left = 0;
+    sprinkle.style.top = 0;
     var rotation = Math.floor(Math.random() * 360);
     sprinkle.style.transform = "rotate(" + rotation + "deg)";
+
+    sprinkle.addEventListener("click", function (event) {
+      event.target.remove();
+      location.reload(true);
+    });
+    sprinkle.addEventListener("mouseover", function () {
+      sprinkle.style.transform = "rotate(360deg)";
+
+    });
+    sprinkle.addEventListener("mouseout", function () {
+      sprinkle.style.transform = "rotate(0deg)";
+    });
+
 
     container.appendChild(sprinkle);
   }
 
   document.body.appendChild(container);
 
-  if (typeof sprinkleImages.counter == 'undefined') {
+  /*if (typeof sprinkleImages.counter == 'undefined') {
     sprinkleImages.counter = 1;
   } else {
     sprinkleImages.counter++;
   }
-  if (sprinkleImages.counter < 10) {
+  if (sprinkleImages.counter < 1) {
     sprinkleImages();
   } else {
     var audio = new Audio("resources/audio/💀.mp3");
     audio.volume = 0.05;
     audio.play();
-  }
+  }*/
 }
+
