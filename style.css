@@ -170,6 +170,7 @@ body {
     grid-row-start: 4;
     grid-row-end: 4;
     background-attachment: fixed;
+    margin-top: 20px;
 
 }
 
@@ -220,7 +221,7 @@ body {
 .bm {
     float: left;
     width: 20px;
-    height: 20px;
+    height: 22px;
     margin-bottom: 20px;
     margin-left: 12px;
     transition: transform 0.5s ease;
@@ -249,6 +250,6 @@ body {
 }
 .bm:hover {
     transform: translate(100px, 100px);
-    transform: rotate(45deg);
+    transform: rotate(360deg);
 }
 
