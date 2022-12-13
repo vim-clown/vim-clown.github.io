@@ -241,7 +241,7 @@ body {
     transition: transform 0.5s ease;
     background-attachment: fixed;
     margin-top: 10px;
-    margin-left: 2px;
+    margin-left: 0px;
 
 }
 
