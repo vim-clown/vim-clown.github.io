@@ -7,8 +7,10 @@ function showButtons(icon) {
 
   var buttons1 = document.querySelector('.buttons2');
   var title1 = document.querySelector('.title3');
+  var title4 = document.querySelector('.title4');
   var up = document.querySelector('.up');
   var ic = document.querySelector('.icon3');
+  var ic4 = document.querySelector('.icon4');
 
   if (buttons.style.display === 'none') {
     icon.classList.add("rotated");
@@ -23,6 +25,8 @@ function showButtons(icon) {
     buttons1.style.display = 'none';
     title1.style.display = 'none';
     ic.style.display = 'none';
+    title4.style.display = 'none';
+    ic4.style.display = 'none';
   } else {
     buttons.style.display = 'none';
     title.style.display = 'grid';
@@ -34,7 +38,9 @@ function showButtons(icon) {
 
     buttons1.style.display = 'none';
     title1.style.display = 'grid';
+    title4.style.display = 'grid';
     ic.style.display = 'grid';
+    ic4.style.display = 'grid';
     up.style.display = 'none';
   }
 }
@@ -45,11 +51,13 @@ function showEmpty(icon) {
   var root = document.querySelector('.title');
   var titlec = document.querySelector('.titlec');
   var bm = document.querySelector('.bm');
+  var ic4 = document.querySelector('.icon4');
 
   var buttons1 = document.querySelector('.buttons');
   var title1 = document.querySelector('.title2');
   var up2 = document.querySelector('.up2');
 
+  var title4 = document.querySelector('.title4');
   var ic = document.querySelector('.icon');
 
   if (buttons.style.display === 'none') {
@@ -57,6 +65,7 @@ function showEmpty(icon) {
     icon.style.transform = "rotate(90deg)";
     buttons.style.display = 'grid';
     title.style.display = 'none';
+    title4.style.display = 'none';
     root.style.display = 'none';
     titlec.style.display = 'grid';
     bm.style.transform = "rotate(360deg)";
@@ -64,6 +73,7 @@ function showEmpty(icon) {
     buttons1.style.display = 'none';
     title1.style.display = 'none';
     ic.style.display = 'none';
+    ic4.style.display = 'none';
     up2.style.display = 'grid';
 
 
@@ -74,11 +84,13 @@ function showEmpty(icon) {
     icon.style.transform = "rotate(0deg)";
     titlec.style.display = 'none';
     root.style.display = 'grid';
+    title4.style.display = 'grid';
     bm.style.transform = "rotate(0deg)";
 
     buttons1.style.display = 'none';
     title1.style.display = 'grid';
     ic.style.display = 'grid';
+    ic4.style.display = 'grid';
     up2.style.display = 'none';
   }
 }

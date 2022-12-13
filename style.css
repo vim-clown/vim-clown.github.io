@@ -2,7 +2,7 @@ body {
     display: grid;
     row-gap: 0px;
     column-gap: 0px;
-    background-image: url('resources/images/hq/02.png');
+    background-image: url('resources/images/hq/dark.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -24,10 +24,12 @@ body {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
-    color: #000;
+    color: rgb(255, 255, 255);
     background-attachment: fixed;
     margin-bottom: 20px;
-    background: linear-gradient(to right, #ff000048, #be8f8f41);
+    border-style: ridge;
+    border-width: 2px;
+    background: linear-gradient(to right, #000000, #30000057);
 
 
 }
@@ -40,11 +42,12 @@ body {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
-    color: #000;
+    color: rgb(255, 255, 255);
     background-attachment: fixed;
     margin-bottom: 20px;
-    background: linear-gradient(to right, #cc00ff4d, #ff000046);
-
+    border-style: ridge;
+    border-width: 2px;
+    background: linear-gradient(to right, #000000, #30000057);
 }
 
 .titlec {
@@ -55,11 +58,12 @@ body {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
-    color: #000;
+    color: rgb(255, 255, 255);
     background-attachment: fixed;
     margin-bottom: 20px;
-    background: linear-gradient(to right, #cc00ff4d, #ff000046);
-
+    border-style: ridge;
+    border-width: 2px;
+    background: linear-gradient(to right, #000000, #30000057);
 }
 
 .title2 {
@@ -70,10 +74,15 @@ body {
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
-    color: #000;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-style: ridge;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-width: 1px;
     background-attachment: fixed;
-    margin-top: 55px;
+    margin-top: 67px;
+    margin-left: 6px;
 
 }
 
@@ -82,9 +91,10 @@ body {
     font-size: 10px;
     grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    color: #000;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     background-attachment: fixed;
     margin-top: 55px;
     margin-left: 15px;
@@ -99,9 +109,32 @@ body {
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-    color: #000;
-    background-color: white;
-    margin-top: 55px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-style: ridge;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-width: 1px;
+    margin-top: 67px;
+    background-attachment: fixed;
+
+}
+
+.title4 {
+    display: grid;
+    font-size: 9px;
+    width: 60px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-style: ridge;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-width: 1px;
+    margin-top: 67px;
     background-attachment: fixed;
 
 }
@@ -111,14 +144,31 @@ body {
     font-size: 10px;
     grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    color: #000;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     margin-top: 55px;
     background-attachment: fixed;
     margin-left: 15px;
 
 }
+
+.up3 {
+    display: none;
+    font-size: 10px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-top: 55px;
+    background-attachment: fixed;
+    margin-left: 15px;
+
+}
+
 
 .picture {
     border-radius: 50%;
@@ -133,20 +183,21 @@ body {
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
-    width: 44px;
-    height: 44px;
-    image-rendering: optimizeQuality;
+    width: 58px;
+    height: 58px;
     transition: transform 0.09s;
     background-attachment: fixed;
     margin-top: 10px;
+    margin-left: 3px;
 
 }
 
 .icon2 {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     background-attachment: fixed;
     padding-right: 8px;
+    transition: transform 0.09s;
 }
 
 .icon3 {
@@ -155,12 +206,26 @@ body {
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-    width: 44px;
-    height: 44px;
-    image-rendering: optimizeQuality;
+    width: 58px;
+    height: 58px;
     transition: transform 0.09s;
     background-attachment: fixed;
     margin-top: 10px;
+    margin-left: 3px;
+}
+
+.icon4 {
+    display: grid;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    width: 58px;
+    height: 58px;
+    transition: transform 0.5s ease;
+    background-attachment: fixed;
+    margin-top: 10px;
+    margin-left: 3px;
 }
 
 .buttons {
@@ -171,6 +236,11 @@ body {
     grid-row-end: 4;
     background-attachment: fixed;
     margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-style: ridge;
+    border-width: 2px;
+    margin-left: 14px;
 
 }
 
@@ -182,6 +252,25 @@ body {
     grid-row-end: 3;
     background-attachment: fixed;
     margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    border-style: ridge;
+    border-width: 2px;
+    margin-left: 14px;
+
+}
+
+.buttons3 {
+    display: none;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-attachment: fixed;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    border-style: ridge;
+    border-width: 2px;
+    margin-left: 14px;
 
 }
 
@@ -189,7 +278,7 @@ body {
 .buttons button {
     font-size: 12px;
     width: 180px;
-    height: 20px;
+    height: 24px;
     border: 1px solid;
     cursor: pointer;
     margin-right: 199%;
@@ -197,7 +286,8 @@ body {
     border-top: 0px;
     border-right: 0px;
     border-style: dotted;
-    background-color: rgba(255, 255, 255, 0.87);
+    background: #35353570;
+    color: rgb(255, 255, 255);
     text-align: left;
 
 }
@@ -205,7 +295,7 @@ body {
 .buttons2 button {
     font-size: 12px;
     width: 180px;
-    height: 20px;
+    height: 24px;
     border: 1px solid;
     cursor: pointer;
     margin-right: 199%;
@@ -213,10 +303,29 @@ body {
     border-top: 0px;
     border-right: 0px;
     border-style: dotted;
-    background-color: rgba(255, 255, 255, 0.87);
+    background: #35353570;
+    color: rgb(255, 255, 255);
     text-align: left;
 
 }
+
+.buttons3 button {
+    font-size: 12px;
+    width: 180px;
+    height: 24px;
+    border: 1px solid;
+    cursor: pointer;
+    margin-right: 199%;
+    margin-left: 0%;
+    border-top: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    background: #35353570;
+    color: rgb(255, 255, 255);
+    text-align: left;
+
+}
+
 
 .bm {
     float: left;
@@ -228,25 +337,34 @@ body {
 }
 
 .icon:hover {
-    background-color: #30006431;
+    background-color: #00000088;
     transform: translateY(-5px);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 .icon3:hover {
-    background-color: #30006431;
+    background-color: #00000088;
     transform: translateY(-5px);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+.icon4:hover {
+    transform: rotate(-45deg);
 }
 
 .buttons button:hover {
-    background: #ca000070;
-    color: rgb(255, 255, 255);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 .buttons2 button:hover {
-    background: #ca000070;
-    color: rgb(255, 255, 255);
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.buttons3 button:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 .bm:hover {
