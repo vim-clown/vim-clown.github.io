@@ -8,7 +8,6 @@ body {
     background-position: center;
     font-family: sans-serif;
     background-repeat: no-repeat;
-    color: white;
 }
 
 @-ms-viewport {
@@ -208,11 +207,13 @@ body {
 }
 
 .icon2 {
-    width: 18px;
-    height: 18px;
+    width: 14px;
+    height: 14px;
     background-attachment: fixed;
     padding-right: 8px;
     transition: transform 0.09s;
+    text-shadow: white;
+    background: transparent;
 }
 
 .icon3 {
@@ -241,7 +242,7 @@ body {
     background-attachment: fixed;
     margin-top: 10px;
     margin-left: 3px;
-    
+
 }
 
 .buttons {
@@ -307,7 +308,7 @@ body {
     margin-left: 14px;
     border-bottom-color: blue;
     border-left-color: blue;
-    
+
 
 }
 
@@ -327,7 +328,7 @@ body {
     margin-left: 14px;
     border-bottom-color: blue;
     border-left-color: blue;
-    
+
 
 }
 
@@ -349,6 +350,7 @@ body {
     border-left-color: blue;
 
 }
+
 .spotify {
     display: none;
     grid-column-start: 0;
@@ -365,7 +367,7 @@ body {
 
 .spotify iframe {
     font-size: 12px;
-    width: 420px;
+    width: 380px;
     height: 300px;
     border: 5px solid;
     cursor: pointer;
@@ -385,6 +387,7 @@ body {
     margin-left: 12px;
     transition: transform 0.5s ease;
 }
+
 .icon:hover {
     background-color: #00000088;
     transform: translateY(-5px);
