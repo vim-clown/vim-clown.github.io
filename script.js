@@ -4,7 +4,7 @@ function showButtons(icon) {
   var root = document.querySelector('.title');
   var titleb = document.querySelector('.titleb');
   var bm = document.querySelector('.bm');
-
+  var icon = document.querySelector('.icon');
   var buttons1 = document.querySelector('.buttons2');
   var title1 = document.querySelector('.title3');
   var title4 = document.querySelector('.title4');
@@ -13,8 +13,7 @@ function showButtons(icon) {
   var ic4 = document.querySelector('.icon4');
 
   if (buttons.style.display === 'none') {
-    icon.classList.add("rotated");
-    icon.style.transform = "rotate(90deg)";
+    icon.style.display = 'none';
     buttons.style.display = 'grid';
     title.style.display = 'none';
     root.style.display = 'none';
@@ -30,8 +29,7 @@ function showButtons(icon) {
   } else {
     buttons.style.display = 'none';
     title.style.display = 'grid';
-    icon.classList.remove("rotated");
-    icon.style.transform = "rotate(0deg)";
+    icon.style.display = 'grid';
     titleb.style.display = 'none';
     root.style.display = 'grid';
     bm.style.transform = "rotate(0deg)";
@@ -71,7 +69,7 @@ function showEmpty(icon) {
   var titlec = document.querySelector('.titlec');
   var bm = document.querySelector('.bm');
   var ic4 = document.querySelector('.icon4');
-
+  var icon = document.querySelector('.icon3');
   var buttons1 = document.querySelector('.buttons');
   var title1 = document.querySelector('.title2');
   var up2 = document.querySelector('.up2');
@@ -80,8 +78,7 @@ function showEmpty(icon) {
   var ic = document.querySelector('.icon');
 
   if (buttons.style.display === 'none') {
-    icon.classList.add("rotated");
-    icon.style.transform = "rotate(90deg)";
+    icon.style.display = 'none';
     buttons.style.display = 'grid';
     title.style.display = 'none';
     title4.style.display = 'none';
@@ -99,8 +96,7 @@ function showEmpty(icon) {
   } else {
     buttons.style.display = 'none';
     title.style.display = 'grid';
-    icon.classList.remove("rotated");
-    icon.style.transform = "rotate(0deg)";
+    icon.style.display = 'grid';
     titlec.style.display = 'none';
     root.style.display = 'grid';
     title4.style.display = 'grid';
