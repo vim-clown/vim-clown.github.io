@@ -69,20 +69,24 @@ body {
 .title2 {
     display: grid;
     font-size: 9px;
-    width: 50px;
+    width: 60px;
     grid-column-start: 0;
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    border-style: ridge;
+    border-style: dotted;
     border-left-color: transparent;
     border-right-color: transparent;
     border-width: 1px;
     background-attachment: fixed;
     margin-top: 67px;
-    margin-left: 6px;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
 
 }
 
@@ -98,6 +102,7 @@ body {
     background-attachment: fixed;
     margin-top: 55px;
     margin-left: 15px;
+    max-width: fit-content;
 
 }
 
@@ -111,12 +116,16 @@ body {
     grid-row-end: 3;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    border-style: ridge;
+    border-style: dotted;
     border-left-color: transparent;
     border-right-color: transparent;
     border-width: 1px;
     margin-top: 67px;
     background-attachment: fixed;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
 
 }
 
@@ -130,13 +139,17 @@ body {
     grid-row-end: 5;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    border-style: ridge;
+    border-style: dotted;
     border-left-color: transparent;
     border-right-color: transparent;
     border-width: 1px;
-    margin-top: 67px;
+    margin-top: 74px;
     background-attachment: fixed;
-
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    text-align: center;
 }
 
 .up2 {
@@ -151,6 +164,7 @@ body {
     margin-top: 55px;
     background-attachment: fixed;
     margin-left: 15px;
+    max-width: fit-content;
 
 }
 
@@ -166,6 +180,7 @@ body {
     margin-top: 55px;
     background-attachment: fixed;
     margin-left: 15px;
+    max-width: fit-content;
 
 }
 
@@ -220,12 +235,13 @@ body {
     grid-column-end: 1;
     grid-row-start: 5;
     grid-row-end: 5;
-    width: 58px;
-    height: 58px;
+    width: 62px;
+    height: 62px;
     transition: transform 0.5s ease;
     background-attachment: fixed;
     margin-top: 10px;
     margin-left: 3px;
+    
 }
 
 .buttons {
@@ -282,13 +298,16 @@ body {
     border: 1px solid;
     cursor: pointer;
     margin-right: 199%;
-    margin-left: 0%;
     border-top: 0px;
     border-right: 0px;
     border-style: dotted;
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
+    margin-left: 14px;
+    border-bottom-color: blue;
+    border-left-color: blue;
+    
 
 }
 
@@ -299,13 +318,16 @@ body {
     border: 1px solid;
     cursor: pointer;
     margin-right: 199%;
-    margin-left: 0%;
     border-top: 0px;
     border-right: 0px;
     border-style: dotted;
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
+    margin-left: 14px;
+    border-bottom-color: blue;
+    border-left-color: blue;
+    
 
 }
 
@@ -316,16 +338,44 @@ body {
     border: 1px solid;
     cursor: pointer;
     margin-right: 199%;
-    margin-left: 0%;
     border-top: 0px;
     border-right: 0px;
     border-style: dotted;
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
+    margin-left: 14px;
+    border-bottom-color: blue;
+    border-left-color: blue;
+
+}
+.spotify {
+    display: none;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    background-attachment: fixed;
+    margin-top: 20px;
+    border-style: hidden;
+    border-width: 2px;
+    transition: transform 0.5s;
 
 }
 
+.spotify iframe {
+    font-size: 12px;
+    width: 420px;
+    height: 300px;
+    border: 5px solid;
+    cursor: pointer;
+    margin-right: 199%;
+    border-style: ridge;
+    background: #35353570;
+    color: rgb(255, 255, 255);
+    text-align: left;
+
+}
 
 .bm {
     float: left;
@@ -335,7 +385,6 @@ body {
     margin-left: 12px;
     transition: transform 0.5s ease;
 }
-
 .icon:hover {
     background-color: #00000088;
     transform: translateY(-5px);
@@ -349,7 +398,8 @@ body {
 }
 
 .icon4:hover {
-    transform: rotate(-45deg);
+    transform: translateY(-5px);
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 .buttons button:hover {

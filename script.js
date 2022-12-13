@@ -45,6 +45,25 @@ function showButtons(icon) {
   }
 }
 
+function showSpotify(icon) {
+  var buttons = document.querySelector('.spotify');
+  var bm = document.querySelector('.bm');
+
+  if (buttons.style.display === 'none') {
+    icon.classList.add("rotated");
+    icon.style.transition = "transform 0.5s";
+    icon.style.transform = "rotate(25deg)";
+    buttons.style.display = 'grid';
+    bm.style.transform = "rotate(0deg)";
+
+  } else {
+    buttons.style.display = 'none';
+    icon.classList.remove("rotated");
+    icon.style.transform = "rotate(360deg)";
+    bm.style.transform = "rotate(0deg)";
+  }
+}
+
 function showEmpty(icon) {
   var buttons = document.querySelector('.buttons2');
   var title = document.querySelector('.title3');

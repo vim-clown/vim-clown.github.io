@@ -29,7 +29,7 @@
             <ul><button class="el" onclick="window.open('https://www.youtube.com/watch?v=fcZXfoB2f70')"><img
                               class="icon2" src="resources/images/skull.png" />youtube</button></ul><br>
       </div>
-      <img class="icon3" src="resources/images/brwnf.png" onclick="showEmpty(this)" />
+      <img class="icon3" src="resources/images/blf.ico" onclick="showEmpty(this)" />
       <h7 class="title3">New Folder(1)</h7>
       <h6 class="up2">↰</h6>
       <div class="buttons2">
@@ -40,9 +40,13 @@
             <ul><button id="sp" onclick="sprinkleImages()"><img class="icon2"
                               src="resources/images/bat.png" />jkfdl.bat</button></ul><br>
       </div>
-      <img class="icon4" src="resources/images/cd.png" />
-      <h7 class="title4">Music (empty)</h7>
+      <img class="icon4" src="resources/images/cd.png" onclick="showSpotify(this)"/>
+      <h7 class="title4">Music</h7>
       <img class="bm" src="resources/images/hql1.png" /><br>
+      <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>
+      <div class="spotify">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0AZzZRxfPCdGcorLuYoY3h?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
 </body>
 
 </html>
