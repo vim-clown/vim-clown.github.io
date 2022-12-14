@@ -65,6 +65,21 @@ body {
     background: linear-gradient(to right, #000000, #30000057);
 }
 
+.titled {
+    display: none;
+    font-size: 12px;
+    margin-top: 8px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    border-style: ridge;
+    border-width: 2px;
+    background: linear-gradient(to right, #000000, #30000057);
+}
 .title2 {
     display: grid;
     font-size: 9px;
@@ -80,7 +95,7 @@ body {
     border-right-color: transparent;
     border-width: 1px;
     background-attachment: fixed;
-    margin-top: 67px;
+    margin-top: 74px;
     border-top-color: blue;
     border-bottom-color: blue;
     text-align: center;
@@ -121,7 +136,7 @@ body {
     border-left-color: transparent;
     border-right-color: transparent;
     border-width: 1px;
-    margin-top: 67px;
+    margin-top: 74px;
     background-attachment: fixed;
     border-top-color: blue;
     border-bottom-color: blue;
@@ -176,8 +191,8 @@ body {
     font-size: 16px;
     grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     margin-top: 55px;
@@ -203,12 +218,12 @@ body {
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
-    width: 58px;
-    height: 58px;
-    transition: transform 0.09s;
+    width: 62px;
+    height: 62px;
+    transition: transform 0.5s ease;
     background-attachment: fixed;
     margin-top: 10px;
-    margin-left: 3px;
+    margin-left: 0px;
 
 }
 
@@ -229,12 +244,12 @@ body {
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-    width: 58px;
-    height: 58px;
-    transition: transform 0.09s;
+    width: 62px;
+    height: 62px;
+    transition: transform 0.5s ease;
     background-attachment: fixed;
     margin-top: 10px;
-    margin-left: 3px;
+    margin-left: 0px;
 }
 
 .icon4 {
@@ -251,6 +266,16 @@ body {
     margin-left: 0px;
 
 }
+.icon5 {
+    display: none;
+    width: 42px;
+    height: 42px;
+    margin-left: 0px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
 
 .buttons {
     display: none;
@@ -261,7 +286,7 @@ body {
     background-attachment: fixed;
     margin-top: 20px;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
     border-width: 2px;
 
@@ -275,7 +300,7 @@ body {
     grid-row-end: 3;
     background-attachment: fixed;
     margin-top: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
     border-width: 2px;
 
@@ -289,7 +314,7 @@ body {
     grid-row-end: 5;
     background-attachment: fixed;
     margin-top: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
     border-width: 2px;
 
@@ -343,6 +368,7 @@ body {
 
 }
 
+
 .spotify {
     display: none;
     grid-column-start: 0;
@@ -353,6 +379,7 @@ body {
     border-style: hidden;
     border-width: 2px;
     transition: transform 0.5s;
+    margin-top: 154px;
 
 }
 
@@ -369,8 +396,36 @@ body {
 
 }
 
+.spotify2 {
+    display: none;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    background-attachment: fixed;
+    border-style: hidden;
+    border-width: 2px;
+    transition: transform 0.5s;
+    margin-top: 154px;
+
+}
+
+.spotify2 iframe {
+    font-size: 12px;
+    width: 380px;
+    height: 154px;
+    border: 5px solid;
+    cursor: pointer;
+    border-style: ridge;
+    background: #35353570;
+    color: rgb(255, 255, 255);
+    text-align: left;
+
+}
+
 .spider {
-    display: inline-block;
+    display: none;
+
 }
 
 .bm {
@@ -378,20 +433,18 @@ body {
     width: 20px;
     height: 22px;
     margin-bottom: 20px;
-    margin-left: 12px;
+    margin-left: 22px;
     transition: transform 0.5s ease;
 }
 
 .icon:hover {
-    background-color: #00000088;
     transform: translateY(-5px);
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 .icon3:hover {
-    background-color: #00000088;
     transform: translateY(-5px);
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 .icon4:hover {
@@ -415,7 +468,7 @@ body {
 }
 
 .bm:hover {
-    transform: rotate(360deg);
+    transform: rotate(35deg);
 }
 
 .up:hover {
