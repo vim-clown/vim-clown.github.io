@@ -102,7 +102,7 @@ body {
     margin-top: 55px;
     max-width: fit-content;
     border-width: 2px;
-    border-style: ridge;
+    border-style: groove;
     padding: 8px;
     transition: transform 0.09s;
 }
@@ -166,7 +166,7 @@ body {
     background-attachment: fixed;
     max-width: fit-content;
     border-width: 2px;
-    border-style: ridge;
+    border-style: groove;
     padding: 8px;
     transition: transform 0.09s;
 }
@@ -184,7 +184,7 @@ body {
     background-attachment: fixed;
     max-width: fit-content;
     border-width: 2px;
-    border-style: ridge;
+    border-style: groove;
     padding: 8px;
     transition: transform 0.09s;
 }
@@ -213,9 +213,10 @@ body {
 }
 
 .icon2 {
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     background-attachment: fixed;
+    margin-top: 3px;
     padding-right: 8px;
     transition: transform 0.09s;
     text-shadow: white;
@@ -299,16 +300,14 @@ body {
     font-size: 12px;
     width: 180px;
     height: 24px;
-    border: 1px solid;
+    border: 1px rgba(0, 0, 139, 0.493);
     cursor: pointer;
     border-top: 0px;
     border-right: 0px;
-    border-style: dotted;
+    border-style: groove;
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
-    border-bottom-color: blue;
-    border-left-color: blue;
 
 
 }
@@ -317,16 +316,14 @@ body {
     font-size: 12px;
     width: 180px;
     height: 24px;
-    border: 1px solid;
+    border: 1px rgba(0, 0, 139, 0.493);
     cursor: pointer;
     border-top: 0px;
     border-right: 0px;
-    border-style: dotted;
+    border-style: groove;
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
-    border-bottom-color: blue;
-    border-left-color: blue;
 
 
 }
@@ -335,16 +332,14 @@ body {
     font-size: 12px;
     width: 180px;
     height: 24px;
-    border: 1px solid;
+    border: 1px rgba(0, 0, 139, 0.493);
     cursor: pointer;
     border-top: 0px;
     border-right: 0px;
-    border-style: dotted;
+    border-style: groove;
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
-    border-bottom-color: blue;
-    border-left-color: blue;
 
 }
 
@@ -352,10 +347,9 @@ body {
     display: none;
     grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 7;
-    grid-row-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 8;
     background-attachment: fixed;
-    margin-top: 20px;
     border-style: hidden;
     border-width: 2px;
     transition: transform 0.5s;
@@ -365,15 +359,18 @@ body {
 .spotify iframe {
     font-size: 12px;
     width: 380px;
-    height: 280px;
+    height: 154px;
     border: 5px solid;
     cursor: pointer;
-    margin-right: 199%;
     border-style: ridge;
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
 
+}
+
+.spider {
+    display: inline-block;
 }
 
 .bm {
@@ -426,11 +423,13 @@ body {
     color: rgb(0, 0, 0);
     transform: translateY(-5px);
 }
+
 .up2:hover {
     background: #8b8b8b;
     color: rgb(0, 0, 0);
     transform: translateY(-5px);
 }
+
 .up3:hover {
     background: #8b8b8b;
     color: rgb(0, 0, 0);

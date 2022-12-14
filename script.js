@@ -120,16 +120,16 @@ function sprinkleImages() {
   container.style.width = "100%";
   container.style.height = "100%";
 
-  for (var i = 1; i < 2; i++) {
+  for (var i = 1; i < 8; i++) {
     var bm = document.querySelector('.bm');
     var sprinkle = document.createElement("img");
     sprinkle.src = "resources/images/spider2.gif";
     sprinkle.classList.add("sprinkle");
-    // var x = Math.floor(Math.random() * window.innerWidth);
-    // var y = Math.floor(Math.random() * window.innerHeight);
+    var x = Math.floor(Math.random() * window.innerWidth);
+    var y = Math.floor(Math.random() * window.innerHeight);
     sprinkle.style.position = "absolute";
-    sprinkle.style.left = 0;
-    sprinkle.style.top = 0;
+    sprinkle.style.left = x + "px";
+    sprinkle.style.top = y + "px";
     var rotation = Math.floor(Math.random() * 360);
     sprinkle.style.transform = "rotate(" + rotation + "deg)";
 
@@ -151,17 +151,13 @@ function sprinkleImages() {
 
   document.body.appendChild(container);
 
-  /*if (typeof sprinkleImages.counter == 'undefined') {
+  if (typeof sprinkleImages.counter == 'undefined') {
     sprinkleImages.counter = 1;
   } else {
     sprinkleImages.counter++;
   }
-  if (sprinkleImages.counter < 1) {
+  if (sprinkleImages.counter < 10) {
     sprinkleImages();
-  } else {
-    var audio = new Audio("resources/audio/💀.mp3");
-    audio.volume = 0.05;
-    audio.play();
-  }*/
+  }
 }
 
