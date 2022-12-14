@@ -121,7 +121,7 @@ function showSpotify2() {
   var bm = document.querySelector('.bm');
   var icon = document.querySelector('.icon5');
 
-  if (buttons.style.display === 'none') {
+  if (buttons2.style.display === 'none') {
     icon.classList.add("rotated");
     icon.style.transition = "transform 0.5s";
     icon.style.transform = "rotate(360deg)";
