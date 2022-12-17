@@ -2,7 +2,7 @@ body {
     margin: auto;
     row-gap: 0px;
     column-gap: 0px;
-    width: 500px;
+    width: auto;
     font-family: sans-serif;
     color: white;
     background-color: black;
