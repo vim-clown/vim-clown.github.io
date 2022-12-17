@@ -30,10 +30,8 @@ body {
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 180px;
+    margin-top: 150px;
+    margin-left: 50px;
     background-color: black;
     max-width: fit-content;
     max-height: fit-content;
