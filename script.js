@@ -97,6 +97,7 @@ function swButtons(icon) {
 function showSpotify() {
   var buttons = document.querySelector('.spotify');
   var buttons2 = document.querySelector('.spotify2');
+  var buttons3 = document.querySelector('.soundcloud');
   var bm = document.querySelector('.bm');
   var icon = document.querySelector('.icon5');
 
@@ -106,10 +107,12 @@ function showSpotify() {
     icon.style.transform = "rotate(360deg)";
     buttons.style.display = 'grid';
     buttons2.style.display = 'none';
+    buttons3.style.display = 'none';
 
   } else {
     buttons.style.display = 'none';
     buttons2.style.display = 'none';
+    buttons3.style.display = 'none';
     icon.classList.remove("rotated");
     icon.style.transform = "rotate(0deg)";
   }
@@ -118,6 +121,7 @@ function showSpotify() {
 function showSpotify2() {
   var buttons = document.querySelector('.spotify');
   var buttons2 = document.querySelector('.spotify2');
+  var buttons3 = document.querySelector('.soundcloud');
   var bm = document.querySelector('.bm');
   var icon = document.querySelector('.icon5');
 
@@ -127,14 +131,41 @@ function showSpotify2() {
     icon.style.transform = "rotate(360deg)";
     buttons2.style.display = 'grid';
     buttons.style.display = 'none';
+    buttons3.style.display = 'none';
 
   } else {
+    buttons2.style.display = 'none';
+    buttons.style.display = 'none';
+    buttons3.style.display = 'none';
+    icon.classList.remove("rotated");
+    icon.style.transform = "rotate(0deg)";
+  }
+}
+
+function showSoundcloud() {
+  var buttons = document.querySelector('.spotify');
+  var buttons2 = document.querySelector('.spotify2');
+  var buttons3 = document.querySelector('.soundcloud');
+  var bm = document.querySelector('.bm');
+  var icon = document.querySelector('.icon5');
+
+  if (buttons3.style.display === 'none') {
+    icon.classList.add("rotated");
+    icon.style.transition = "transform 0.5s";
+    icon.style.transform = "rotate(360deg)";
+    buttons3.style.display = 'grid';
+    buttons2.style.display = 'none';
+    buttons.style.display = 'none';
+
+  } else {
+    buttons3.style.display = 'none';
     buttons2.style.display = 'none';
     buttons.style.display = 'none';
     icon.classList.remove("rotated");
     icon.style.transform = "rotate(0deg)";
   }
 }
+
 
 function showEmpty(icon) {
   var buttons = document.querySelector('.buttons2');

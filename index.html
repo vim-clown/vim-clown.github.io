@@ -21,12 +21,11 @@
       <h7 class="title2">New Folder</h7>
       <h6 class="up" onclick="showButtons(this)">↰</h6>
       <div class="buttons">
-            <ul><button class="el" onclick="window.open('https://www.youtube.com/watch?v=fcZXfoB2f70')">Blog</button>
+            <ul><button class="el" onclick="window.open('blog.html', '_self')">Blog</button>
             </ul><br>
             <ul><button class="el" onclick="window.open('https://github.com/vim-clown')">Github</button>
             </ul><br>
-            <ul><button class="el"
-                        onclick="window.open('https://soundcloud.com/cetropos')">Soundcloud</button></ul>
+            <ul><button class="el" onclick="window.open('https://soundcloud.com/cetropos')">Soundcloud</button></ul>
             <br>
             <ul><button class="el" onclick="window.open('https://www.youtube.com/watch?v=fcZXfoB2f70')">Youtube</button>
             </ul><br>
@@ -45,7 +44,8 @@
       <img class="icon4" src="resources/images//blf.ico" onclick="swButtons(this)" />
       <div class="buttons3">
             <ul><button id="sp" onclick="showSpotify(this)">Witch house & Wave</button></ul>
-            <ul><button id="sp" onclick="showSpotify2(this)">Dark Trap</button></ul> 
+            <ul><button id="sp" onclick="showSpotify2(this)">Dark Trap</button></ul>
+            <ul><button id="sp" onclick="showSoundcloud(this)">SC playlist (full songs)</button></ul>
       </div>
       <img class="icon5" src="resources/images/cd.png" />
       <h7 class="title4">Music</h7>
@@ -58,13 +58,17 @@
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
       <div class="spotify2">
-            <iframe style="border-radius:12px" 
-            src="https://open.spotify.com/embed/playlist/51nIvcEghWgc5sx5z7fqlW?utm_source=generator&theme=0" 
-            width="100%" height="380" frameBorder="0" allowfullscreen="" 
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <iframe style="border-radius:12px"
+                  src="https://open.spotify.com/embed/playlist/51nIvcEghWgc5sx5z7fqlW?utm_source=generator&theme=0"
+                  width="100%" height="380" frameBorder="0" allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+
+      <div class="soundcloud">
+            <iframe width="380px" height="204px" scrolling="yes" frameborder="0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1376864104&color=%231b1712&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>
 
       <img class="spider" src="resources/images/spider2.gif" /><br>
 </body>
-
-</html>

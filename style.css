@@ -80,6 +80,7 @@ body {
     border-width: 2px;
     background: linear-gradient(to right, #000000, #30000057);
 }
+
 .title2 {
     display: grid;
     font-size: 9px;
@@ -120,6 +121,7 @@ body {
     border-style: groove;
     padding: 8px;
     transition: transform 0.09s;
+    cursor: pointer;
 }
 
 .title3 {
@@ -184,6 +186,7 @@ body {
     border-style: groove;
     padding: 8px;
     transition: transform 0.09s;
+    cursor: pointer;
 }
 
 .up3 {
@@ -202,6 +205,7 @@ body {
     border-style: groove;
     padding: 8px;
     transition: transform 0.09s;
+    cursor: pointer;
 }
 
 
@@ -266,6 +270,7 @@ body {
     margin-left: 0px;
 
 }
+
 .icon5 {
     display: none;
     width: 42px;
@@ -284,7 +289,6 @@ body {
     grid-row-start: 4;
     grid-row-end: 4;
     background-attachment: fixed;
-    margin-top: 20px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
@@ -299,7 +303,6 @@ body {
     grid-row-start: 3;
     grid-row-end: 3;
     background-attachment: fixed;
-    margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
     border-width: 2px;
@@ -313,7 +316,6 @@ body {
     grid-row-start: 5;
     grid-row-end: 5;
     background-attachment: fixed;
-    margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
     border-width: 2px;
@@ -422,6 +424,40 @@ body {
     text-align: left;
 
 }
+
+.soundcloud {
+    display: none;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    background-attachment: fixed;
+    font-size: 10px;
+    color: #000000;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+    font-weight: 100;
+    border-style: hidden;
+    border-width: 2px;
+    transition: transform 0.5s;
+    margin-top: 108px;
+}
+
+.soundcloud iframe {
+    font-size: 12px;
+    border: 5px solid;
+    cursor: pointer;
+    border-style: ridge;
+    background: #00000070;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 12px;
+}
+
 
 .spider {
     display: none;

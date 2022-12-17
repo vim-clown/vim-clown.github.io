@@ -1,0 +1,46 @@
+body {
+    margin: auto;
+    row-gap: 0px;
+    column-gap: 0px;
+    width: 500px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+@-ms-viewport {
+    width: device-width;
+    height: device-height;
+}
+
+.back {
+    background-color: black;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-style: groove;
+    max-width: fit-content;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    border-width: 2px;
+    transition: transform 0.09s;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 180px;
+    background-color: black;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.back:hover {
+    background: #8b8b8b;
+    color: rgb(0, 0, 0);
+    transform: translateY(-5px);
+}
