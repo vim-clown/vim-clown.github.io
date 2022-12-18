@@ -19,6 +19,7 @@ body {
     display: grid;
     font-size: 12px;
     margin-top: 8px;
+    padding: 4px 15px;
     grid-column-start: 0;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -37,6 +38,7 @@ body {
     display: none;
     font-size: 12px;
     margin-top: 8px;
+    padding: 4px 15px;
     grid-column-start: 0;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -53,6 +55,7 @@ body {
     display: none;
     font-size: 12px;
     margin-top: 8px;
+    padding: 4px 15px;
     grid-column-start: 0;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -69,6 +72,7 @@ body {
     display: none;
     font-size: 12px;
     margin-top: 8px;
+    padding: 4px 15px;
     grid-column-start: 0;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -119,7 +123,7 @@ body {
     max-width: fit-content;
     border-width: 2px;
     border-style: groove;
-    padding: 8px;
+    padding: 10px 15px;
     transition: transform 0.09s;
     cursor: pointer;
 }
@@ -184,7 +188,7 @@ body {
     max-width: fit-content;
     border-width: 2px;
     border-style: groove;
-    padding: 8px;
+    padding: 10px 15px;
     transition: transform 0.09s;
     cursor: pointer;
 }
@@ -203,7 +207,7 @@ body {
     max-width: fit-content;
     border-width: 2px;
     border-style: groove;
-    padding: 8px;
+    padding: 10px 15px;
     transition: transform 0.09s;
     cursor: pointer;
 }
