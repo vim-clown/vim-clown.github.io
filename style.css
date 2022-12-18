@@ -325,7 +325,7 @@ body {
 
 .buttons button {
     font-size: 12px;
-    width: 180px;
+    width: 200px;
     height: 24px;
     border: 1px rgba(0, 0, 139, 0.493);
     cursor: pointer;
@@ -341,7 +341,7 @@ body {
 
 .buttons2 button {
     font-size: 12px;
-    width: 180px;
+    width: 200px;
     height: 24px;
     border: 1px rgba(0, 0, 139, 0.493);
     cursor: pointer;
@@ -357,7 +357,7 @@ body {
 
 .buttons3 button {
     font-size: 12px;
-    width: 180px;
+    width: 200px;
     height: 24px;
     border: 1px rgba(0, 0, 139, 0.493);
     cursor: pointer;
