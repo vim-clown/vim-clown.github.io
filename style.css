@@ -277,8 +277,8 @@ body {
 
 .icon5 {
     display: none;
-    width: 42px;
-    height: 42px;
+    width: 20px;
+    height: 20px;
     margin-left: 0px;
     grid-column-start: 0;
     grid-column-end: 1;
