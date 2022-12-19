@@ -31,6 +31,7 @@ body {
     margin-bottom: 20px;
     border-style: ridge;
     border-width: 2px;
+    border-radius: 10px;
     background: linear-gradient(to right, #000000, #30000057);
 
 
@@ -50,6 +51,7 @@ body {
     margin-bottom: 20px;
     border-style: ridge;
     border-width: 2px;
+    border-radius: 10px;
     background: linear-gradient(to right, #000000, #30000057);
 }
 
@@ -67,6 +69,7 @@ body {
     margin-bottom: 20px;
     border-style: ridge;
     border-width: 2px;
+    border-radius: 10px;
     background: linear-gradient(to right, #000000, #30000057);
 }
 
@@ -84,6 +87,7 @@ body {
     margin-bottom: 20px;
     border-style: ridge;
     border-width: 2px;
+    border-radius: 10px;
     background: linear-gradient(to right, #000000, #30000057);
 }
 
@@ -294,11 +298,18 @@ body {
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
-    background-attachment: fixed;
-    color: rgb(255, 255, 255);
+    background-attachment: local;
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
     border-width: 2px;
+    background-image: url('resources/images/spider2.gif');
+    background-size: 40%;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+    background-position-y: 40px;
+    background-blend-mode: darken;
+    border-bottom-right-radius: 20px;
 
 }
 
@@ -308,10 +319,18 @@ body {
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-    background-attachment: fixed;
+    background-attachment: local;
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
     border-width: 2px;
+    background-image: url('resources/images/spider2.gif');
+    background-size: 40%;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+    background-position-y: 40px;
+    background-blend-mode: darken;
+    border-bottom-right-radius: 20px;
 
 }
 
@@ -321,10 +340,18 @@ body {
     grid-column-end: 1;
     grid-row-start: 5;
     grid-row-end: 5;
-    background-attachment: fixed;
+    background-attachment: local;
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
     border-width: 2px;
+    background-image: url('resources/images/spider2.gif');
+    background-size: 40%;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+    background-position-y: 40px;
+    background-blend-mode: darken;
+    border-bottom-right-radius: 20px;
 
 }
 
@@ -462,11 +489,6 @@ body {
     color: rgb(255, 255, 255);
     text-align: left;
     border-radius: 12px;
-}
-
-
-.spider {
-    display: none;
 }
 
 .bm {
