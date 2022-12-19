@@ -31,11 +31,17 @@ body {
 }
 
 .content {
-    margin-top: 150px;
+    margin-top: 120px;
     margin-left: 50px;
     background-color: black;
     max-width: fit-content;
     max-height: fit-content;
+
+}
+
+.welp {
+    height: auto;
+    max-width: 80%;
 }
 
 .back:hover {

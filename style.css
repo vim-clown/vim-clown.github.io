@@ -8,6 +8,8 @@ body {
     background-position: center;
     font-family: sans-serif;
     background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @-ms-viewport {
@@ -465,7 +467,6 @@ body {
 
 .spider {
     display: none;
-
 }
 
 .bm {
