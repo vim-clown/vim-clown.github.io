@@ -227,6 +227,7 @@ function showEmpty(icon) {
 
 
 function sprinkleImages() {
+  var titlec = document.querySelector('.titlec');
   var container = document.createElement("div");
   container.classList.add("sprinkles-container");
   container.style.position = "absolute";
@@ -234,6 +235,11 @@ function sprinkleImages() {
   container.style.top = "0";
   container.style.width = "100%";
   container.style.height = "100%";
+
+  titlec.style.background = "linear-gradient(to right, #000000, #30000057)";
+  titlec.style.backgroundImage = "url('resources/images/PdGN.gif')";
+  titlec.style.backgroundSize = "cover";
+  titlec.style.backgroundPosition = "center";
 
   for (var i = 1; i < 8; i++) {
     var bm = document.querySelector('.bm');
@@ -247,6 +253,8 @@ function sprinkleImages() {
     sprinkle.style.top = y + "px";
     var rotation = Math.floor(Math.random() * 360);
     sprinkle.style.transform = "rotate(" + rotation + "deg)";
+    sprinkle.style.backgroundBlendMode = "darken";
+    sprinkle.style.imageRendering = "optimizeSpeed";
 
     sprinkle.addEventListener("click", function (event) {
       event.target.remove();

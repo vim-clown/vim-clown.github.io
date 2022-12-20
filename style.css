@@ -92,8 +92,6 @@ body {
     border-style: ridge;
     border-width: 2px;
     border-radius: 10px;
-    background: linear-gradient(to right, #000000, #30000057);
-
 
 }
 
@@ -214,6 +212,7 @@ body {
     border-bottom-color: blue;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    text-align: center;
 
 }
 
