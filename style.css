@@ -342,13 +342,13 @@ body {
 
 .icon5 {
     display: none;
-    width: 20px;
-    height: 20px;
+    position:absolute;
+    z-index: 5;
+    top: 32%;
+    left: 88%;
+    width: 50px;
+    height: 50px;
     margin-left: 0px;
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 6;
-    grid-row-end: 6;
 }
 
 .buttons {
@@ -462,15 +462,16 @@ body {
 
 .spotify {
     display: none;
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 8;
-    grid-row-end: 8;
+    position:absolute;
+    z-index: 5;
+    top: 52%;
+    left: 0%;
     background-attachment: fixed;
     border-style: hidden;
     border-width: 2px;
     transition: transform 0.5s;
     margin-top: 154px;
+    margin-left: 14px;
 
 }
 
@@ -489,15 +490,16 @@ body {
 
 .spotify2 {
     display: none;
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 8;
-    grid-row-end: 8;
+    position:absolute;
+    z-index: 5;
+    top: 52%;
+    left: 0%;
     background-attachment: fixed;
     border-style: hidden;
     border-width: 2px;
     transition: transform 0.5s;
     margin-top: 154px;
+    margin-left: 14px;
 
 }
 
@@ -516,10 +518,10 @@ body {
 
 .soundcloud {
     display: none;
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 8;
-    grid-row-end: 8;
+    position:absolute;
+    z-index: 5;
+    top: 52%;
+    left: 0%;
     background-attachment: fixed;
     font-size: 10px;
     color: #000000;
@@ -534,6 +536,7 @@ body {
     border-width: 2px;
     transition: transform 0.5s;
     margin-top: 108px;
+    margin-left: 14px;
 }
 
 .soundcloud iframe {
