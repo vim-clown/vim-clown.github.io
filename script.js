@@ -228,16 +228,34 @@ function showEmpty(icon) {
 
 function sprinkleImages() {
   var titlec = document.querySelector('.titlec');
+  var up2 = document.querySelector('.up2');
+  var buttons2 = document.querySelector('.buttons2');
+  var b0dy = document.querySelector('body');
   var container = document.createElement("div");
   container.classList.add("sprinkles-container");
   container.style.position = "absolute";
-  container.style.left = "0";
+  container.style.left = "40";
   container.style.top = "0";
   container.style.width = "100%";
   container.style.height = "100%";
 
+  up2.style.background = "linear-gradient(to right, #000000, #30000057)";
+  up2.style.backgroundImage = "url('resources/images/stack.gif')";
+  up2.style.backgroundSize = "cover";
+  up2.style.backgroundPosition = "center";
+
+  b0dy.style.background = "linear-gradient(to right, #000000, #30000057)";
+  b0dy.style.backgroundImage = "url('resources/images/stack.gif')";
+  b0dy.style.backgroundSize = "cover";
+  b0dy.style.backgroundPosition = "center";
+
+  buttons2.style.background = "linear-gradient(to right, #000000, #30000057)";
+  buttons2.style.backgroundImage = "url('resources/images/stack.gif')";
+  buttons2.style.backgroundSize = "cover";
+  buttons2.style.backgroundPosition = "center";
+
   titlec.style.background = "linear-gradient(to right, #000000, #30000057)";
-  titlec.style.backgroundImage = "url('resources/images/PdGN.gif')";
+  titlec.style.backgroundImage = "url('resources/images/stack.gif')";
   titlec.style.backgroundSize = "cover";
   titlec.style.backgroundPosition = "center";
 
@@ -253,7 +271,7 @@ function sprinkleImages() {
     sprinkle.style.top = y + "px";
     var rotation = Math.floor(Math.random() * 360);
     sprinkle.style.transform = "rotate(" + rotation + "deg)";
-    sprinkle.style.backgroundBlendMode = "darken";
+    sprinkle.style.mixBlendMode = "darken";
     sprinkle.style.imageRendering = "optimizeSpeed";
 
     sprinkle.addEventListener("click", function (event) {

@@ -92,6 +92,11 @@ body {
     border-style: ridge;
     border-width: 2px;
     border-radius: 10px;
+    background: linear-gradient(to right, #000000, #30000057);
+    background-image: url('resources/images/PdGN.gif');
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: darken;
 
 }
 
@@ -111,6 +116,11 @@ body {
     border-width: 2px;
     border-radius: 10px;
     background: linear-gradient(to right, #000000, #30000057);
+    background-image: url('resources/images/PdGN.gif');
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: darken;
+
 }
 
 .titlec {
@@ -129,6 +139,10 @@ body {
     border-width: 2px;
     border-radius: 10px;
     background: linear-gradient(to right, #000000, #30000057);
+    background-image: url('resources/images/PdGN.gif');
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: darken;
 }
 
 .titled {
@@ -147,6 +161,11 @@ body {
     border-width: 2px;
     border-radius: 10px;
     background: linear-gradient(to right, #000000, #30000057);
+    background-image: url('resources/images/PdGN.gif');
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: darken;
+
 }
 
 .title2 {
@@ -342,13 +361,16 @@ body {
 
 .icon5 {
     display: none;
-    position:absolute;
+    position: absolute;
     z-index: 5;
     top: 32%;
     left: 88%;
     width: 50px;
     height: 50px;
     margin-left: 0px;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 50%;
 }
 
 .buttons {
@@ -362,13 +384,12 @@ body {
     border-style: ridge;
     border-width: 2px;
     background-image: url('resources/images/spider2.gif');
-    background-size: 40%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 80px;
-    background-position-y: 40px;
+    background-position-y: 0px;
     background-blend-mode: darken;
     border-bottom-right-radius: 20px;
-
 }
 
 .buttons2 {
@@ -382,10 +403,10 @@ body {
     border-style: ridge;
     border-width: 2px;
     background-image: url('resources/images/spider2.gif');
-    background-size: 40%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 80px;
-    background-position-y: 40px;
+    background-position-y: 0px;
     background-blend-mode: darken;
     border-bottom-right-radius: 20px;
 
@@ -402,10 +423,10 @@ body {
     border-style: ridge;
     border-width: 2px;
     background-image: url('resources/images/spider2.gif');
-    background-size: 40%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 80px;
-    background-position-y: 40px;
+    background-position-y: 0px;
     background-blend-mode: darken;
     border-bottom-right-radius: 20px;
 
@@ -462,9 +483,9 @@ body {
 
 .spotify {
     display: none;
-    position:absolute;
+    position: absolute;
     z-index: 5;
-    top: 52%;
+    top: 50%;
     left: 0%;
     background-attachment: fixed;
     border-style: hidden;
@@ -490,9 +511,9 @@ body {
 
 .spotify2 {
     display: none;
-    position:absolute;
+    position: absolute;
     z-index: 5;
-    top: 52%;
+    top: 50%;
     left: 0%;
     background-attachment: fixed;
     border-style: hidden;
@@ -518,9 +539,9 @@ body {
 
 .soundcloud {
     display: none;
-    position:absolute;
+    position: absolute;
     z-index: 5;
-    top: 52%;
+    top: 50%;
     left: 0%;
     background-attachment: fixed;
     font-size: 10px;
@@ -557,6 +578,17 @@ body {
     margin-bottom: 20px;
     margin-left: 22px;
     transition: transform 0.5s ease;
+}
+
+.footer {
+    margin: 0;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 10;
+    z-index: 7;
+    font-size: 7px;
+
 }
 
 .icon:hover {
