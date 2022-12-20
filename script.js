@@ -1,8 +1,8 @@
-window.setTimeout(function () {
+window.onload = function () {
   var splash = document.querySelector('.overlay')
   document.title = 'Deskflop';
   splash.style.display = 'none';
-}, 4500);
+};
 
 function showButtons(icon) {
   var buttons = document.querySelector('.buttons');
