@@ -1,3 +1,9 @@
+window.setTimeout(function () {
+  var splash = document.querySelector('.overlay')
+  document.title = 'Deskflop';
+  splash.style.display = 'none';
+}, 4500);
+
 function showButtons(icon) {
   var buttons = document.querySelector('.buttons');
   var title = document.querySelector('.title2');
@@ -59,6 +65,7 @@ function swButtons(icon) {
   var ic = document.querySelector('.icon3');
   var ic4 = document.querySelector('.icon4');
   var ic5 = document.querySelector('.icon5');
+  document.title = 'Deskflop';
 
   if (buttons.style.display === 'none') {
     icon.style.display = 'none';
@@ -181,6 +188,8 @@ function showEmpty(icon) {
 
   var title4 = document.querySelector('.title4');
   var ic = document.querySelector('.icon');
+
+  document.title = 'Deskflop';
 
   if (buttons.style.display === 'none') {
     icon.style.display = 'none';
