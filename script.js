@@ -2,7 +2,7 @@ window.setTimeout(function () {
   var splash = document.querySelector('.overlay')
   document.title = 'Deskflop';
   splash.style.display = 'none';
-}, 4500);
+}, 9000);
 
 function showButtons(icon) {
   var buttons = document.querySelector('.buttons');
