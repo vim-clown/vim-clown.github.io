@@ -16,44 +16,50 @@
 <body>
 
       <h1 class="title">~/vim-clown</h1>
-      <h1 class="titleb">~/vim-clown/links/</h1>
-      <h1 class="titlec">~/vim-clown/documents/</h1>
-      <h1 class="titled">~/vim-clown/music/</h1>
+      <h1 class="titleb">~/vim-clown/links/<h6 class="up" onclick="showButtons(this)">↰</h6>
+      </h1>
+      <h1 class="titlec">~/vim-clown/documents/<h6 class="up2" onclick="showEmpty(this)">↰</h6>
+      </h1>
+      <h1 class="titled">~/vim-clown/music/<h6 class="up3" onclick="swButtons(this)">↰</h6>
+      </h1>
       <img class="icon" src="resources/images/blf.ico" ondblclick="showButtons(this)" />
       <h7 class="title2">links</h7>
-      <h6 class="up" onclick="showButtons(this)">↰</h6>
       <div class="buttons">
-            <ul><button class="el" onclick="window.open('https://vim-clown.com/blog', '_self')">Blog</button>
-            </ul><br>
-            <ul><button class="el" onclick="window.open('https://github.com/vim-clown')">Github</button>
-            </ul><br>
-            <ul><button class="el" onclick="window.open('https://soundcloud.com/cetropos')">Soundcloud</button></ul>
-            <br>
-            <ul><button class="el" onclick="window.open('https://hachyderm.io/@entity')">The site which must not be
+            <ul><button class="el" ondblclick="window.open('https://vim-clown.com/blog', '_self')"><img class="icon2"
+                              src="resources/images/blog.gif" /><br>Blog</button>
+                  <button class="el" ondblclick="window.open('https://github.com/vim-clown')"><img class="icon2"
+                              src="resources/images/gh.png" /><br>Github</button>
+                  <button class="el" ondblclick="window.open('https://soundcloud.com/cetropos')"><img class="icon2"
+                              src="resources/images/soundcloud-256.png" /><br>Soundcloud</button>
+                  <button class="el" ondblclick="window.open('https://hachyderm.io/@entity')"><img class="icon2"
+                              src="resources/images/mstdn.gif" /><br>The site which must not be
                         named</button>
             </ul><br>
       </div>
       <img class="icon3" src="resources/images/blf.ico" ondblclick="showEmpty(this)" />
       <h7 class="title3">documents</h7>
-      <h6 class="up2" onclick="showEmpty(this)">↰</h6>
       <div class="buttons2">
-            <ul><button class="el" onclick="window.open('https://www.youtube.com/watch?v=zAs5QBK_x1Q')"><img
-                              class="icon2" src="resources/images/1.png" />le backroom (external link)</button></ul><br>
-            <ul><button class="el" onclick="window.open('resources/docs/winXP_key.txt')"><img class="icon2"
-                              src="resources/images/txt.png" />winXP.txt</button></ul><br>
-            <ul><button id="sp" onclick="sprinkleImages()"><img class="icon2"
-                              src="resources/images/bat.png" />notworthit.bat</button></ul><br>
+            <ul><button class="el" ondblclick="window.open('https://www.youtube.com/watch?v=zAs5QBK_x1Q')"><img
+                              class="icon2" src="resources/images/wt.png" /><br>le backroom (external link)</button>
+                  <button class="el" ondblclick="window.open('resources/docs/winXP_key.txt')"><img class="icon2"
+                              src="resources/images/txt.png" /><br>winXP.txt</button>
+                  <button id="sp" ondblclick="sprinkleImages()"><img class="icon2"
+                              src="resources/images/sh.png" /><br>notworthit.sh</button>
+            </ul><br>
       </div>
       <img class="icon4" src="resources/images//blf.ico" ondblclick="swButtons(this)" />
       <div class="buttons3">
-            <ul><button id="sp" onclick="showSpotify(this)">Witch house & Wave</button></ul>
-            <ul><button id="sp" onclick="showSpotify2(this)">Dark Trap</button></ul>
-            <ul><button id="sp" onclick="showSoundcloud(this)">SC playlist</button></ul>
+            <ul><button id="sp" ondblclick="showSpotify(this)"><img class="icon2"
+                              src="resources/images/AntiqueUnrulyCaribou-max-1mb.gif" /><br>Witch house & Wave</button>
+                  <button id="sp" ondblclick="showSpotify2(this)"><img class="icon2"
+                              src="resources/images/musicicon.gif" /><br>Dark Trap</button>
+                  <button id="sp" ondblclick="showSoundcloud(this)"><img class="icon2"
+                              src="resources/images/how-tf-do-you-use-tenor.gif" /><br>SC playlist</button>
+            </ul>
       </div>
       <img class="icon5" src="resources/images/cd.png" />
       <h7 class="title4">music</h7>
       <img class="bm" src="resources/images/hql1.png" /><br>
-      <h6 class="up3" onclick="swButtons(this)">↰</h6>
       <div class="spotify">
             <iframe style="border-radius:12px"
                   src="https://open.spotify.com/embed/playlist/0AZzZRxfPCdGcorLuYoY3h?utm_source=generator&theme=0"
@@ -68,7 +74,7 @@
       </div>
 
       <div class="soundcloud">
-            <iframe width="380px" height="204px" scrolling="yes" frameborder="0"
+            <iframe width="300px" height="204px" scrolling="yes" frameborder="0"
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1376864104&color=%231b1712&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>

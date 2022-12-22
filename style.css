@@ -197,13 +197,12 @@ body {
     display: none;
     font-size: 16px;
     grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-column-end: 0;
+    grid-row-start: 0;
+    grid-row-end: 0;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     background-attachment: fixed;
-    margin-top: 55px;
     max-width: fit-content;
     border-width: 2px;
     border-style: groove;
@@ -263,12 +262,11 @@ body {
     display: none;
     font-size: 16px;
     grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 4;
-    grid-row-end: 4;
+    grid-column-end: 0;
+    grid-row-start: 0;
+    grid-row-end: 0;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    margin-top: 55px;
     background-attachment: fixed;
     max-width: fit-content;
     border-width: 2px;
@@ -282,12 +280,11 @@ body {
     display: none;
     font-size: 16px;
     grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 6;
-    grid-row-end: 6;
+    grid-column-end: 0;
+    grid-row-start: 0;
+    grid-row-end: 0;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    margin-top: 55px;
     background-attachment: fixed;
     max-width: fit-content;
     border-width: 2px;
@@ -321,8 +318,8 @@ body {
 }
 
 .icon2 {
-    width: 12px;
-    height: 12px;
+    width: 42px;
+    height: 42px;
     background-attachment: fixed;
     margin-top: 3px;
     padding-right: 8px;
@@ -364,8 +361,8 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    top: 32%;
-    left: 82%;
+    bottom: 1%;
+    right: 1%;
     width: 50px;
     height: 50px;
     margin-left: 0px;
@@ -378,8 +375,9 @@ body {
     display: none;
     grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 4;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-top: 20px;
     background-attachment: local;
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
@@ -398,8 +396,9 @@ body {
     display: none;
     grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-top: 20px;
     background-attachment: local;
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
@@ -418,8 +417,9 @@ body {
     display: none;
     grid-column-start: 0;
     grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-top: 20px;
     background-attachment: local;
     background-color: rgba(0, 0, 0, 0.925);
     border-style: ridge;
@@ -437,51 +437,46 @@ body {
 
 .buttons button {
     font-size: 10px;
-    width: 280px;
-    height: 24px;
+    width: 200px;
+    height: 64px;
     border: 1px rgba(0, 0, 139, 0.493);
     cursor: pointer;
-    border-top: 0px;
-    border-right: 0px;
-    border-style: groove;
-    background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
     font-family: 'Chivo Mono', serif;
+    background: transparent;
+    border: hidden;
+    margin-bottom: 20px;
 
 
 }
 
 .buttons2 button {
     font-size: 10px;
-    width: 280px;
-    height: 24px;
-    border: 1px rgba(0, 0, 139, 0.493);
+    width: 200px;
+    height: 64px;
     cursor: pointer;
-    border-top: 0px;
-    border-right: 0px;
-    border-style: groove;
-    background: #35353570;
+    background: transparent;
     color: rgb(255, 255, 255);
     text-align: left;
+    border: hidden;
     font-family: 'Chivo Mono', serif;
+    margin-bottom: 20px;
 
 
 }
 
 .buttons3 button {
     font-size: 10px;
-    width: 280px;
-    height: 24px;
-    border: 1px rgba(0, 0, 139, 0.493);
+    width: 200px;
+    height: 64px;
     cursor: pointer;
-    border-top: 0px;
-    border-right: 0px;
-    border-style: groove;
-    background: #35353570;
+    background: transparent;
     color: rgb(255, 255, 255);
     text-align: left;
     font-family: 'Chivo Mono', serif;
+    margin-bottom: 20px;
+    border: hidden;
 
 }
 
@@ -490,18 +485,17 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    top: 50%;
-    left: 0%;
+    bottom: 0%;
+    right: 0%;
     background-attachment: fixed;
     transition: transform 0.5s;
-    margin-top: 154px;
-    margin-left: 14px;
+    margin-right: 14px;
 
 }
 
 .spotify iframe {
     font-size: 12px;
-    width: 380px;
+    width: 300px;
     height: 154px;
     border: 2px solid;
     cursor: pointer;
@@ -516,18 +510,18 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    top: 50%;
-    left: 0%;
+    bottom: 0%;
+    right: 0%;
     background-attachment: fixed;
     transition: transform 0.5s;
     margin-top: 154px;
-    margin-left: 14px;
+    margin-right: 14px;
 
 }
 
 .spotify2 iframe {
     font-size: 12px;
-    width: 380px;
+    width: 300px;
     height: 154px;
     border: 2px solid;
     cursor: pointer;
@@ -542,8 +536,8 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    top: 50%;
-    left: 0%;
+    bottom: 0%;
+    right: 0%;
     background-attachment: fixed;
     font-size: 10px;
     color: #000000;
@@ -556,7 +550,7 @@ body {
     font-weight: 100;
     transition: transform 0.5s;
     margin-top: 108px;
-    margin-left: 14px;
+    margin-right: 14px;
 }
 
 .soundcloud iframe {
@@ -595,6 +589,11 @@ body {
     text-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
+.icon2:hover {
+    transform: translateY(-5px);
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
 .icon3:hover {
     transform: translateY(-5px);
     text-shadow: 0px 0px 15px rgb(0, 0, 0);
@@ -603,21 +602,6 @@ body {
 .icon4:hover {
     transform: translateY(-5px);
     text-shadow: 0px 0px 15px rgb(0, 0, 0);
-}
-
-.buttons button:hover {
-    background: #8b8b8b;
-    color: rgb(0, 0, 0);
-}
-
-.buttons2 button:hover {
-    background: #8b8b8b;
-    color: rgb(0, 0, 0);
-}
-
-.buttons3 button:hover {
-    background: #8b8b8b;
-    color: rgb(0, 0, 0);
 }
 
 .bm:hover {
