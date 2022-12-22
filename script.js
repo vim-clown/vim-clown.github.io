@@ -234,7 +234,7 @@ function sprinkleImages() {
   var container = document.createElement("div");
   container.classList.add("sprinkles-container");
   container.style.position = "absolute";
-  container.style.left = "40";
+  container.style.left = "0";
   container.style.top = "0";
   container.style.width = "100%";
   container.style.height = "100%";
@@ -248,6 +248,8 @@ function sprinkleImages() {
   b0dy.style.backgroundImage = "url('resources/images/stack.gif')";
   b0dy.style.backgroundSize = "cover";
   b0dy.style.backgroundPosition = "center";
+  b0dy.style.backgroundRepeat = "no-repeat";
+  b0dy.style.backgroundAttachment = "fixed";
 
   buttons2.style.background = "linear-gradient(to right, #000000, #30000057)";
   buttons2.style.backgroundImage = "url('resources/images/stack.gif')";
@@ -259,7 +261,7 @@ function sprinkleImages() {
   titlec.style.backgroundSize = "cover";
   titlec.style.backgroundPosition = "center";
 
-  for (var i = 1; i < 8; i++) {
+  for (var i = 1; i < 4; i++) {
     var bm = document.querySelector('.bm');
     var sprinkle = document.createElement("img");
     sprinkle.src = "resources/images/spider2.gif";

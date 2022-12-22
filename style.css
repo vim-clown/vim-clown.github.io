@@ -364,7 +364,7 @@ body {
     position: absolute;
     z-index: 5;
     top: 32%;
-    left: 88%;
+    left: 82%;
     width: 50px;
     height: 50px;
     margin-left: 0px;
@@ -488,8 +488,6 @@ body {
     top: 50%;
     left: 0%;
     background-attachment: fixed;
-    border-style: hidden;
-    border-width: 2px;
     transition: transform 0.5s;
     margin-top: 154px;
     margin-left: 14px;
@@ -500,7 +498,7 @@ body {
     font-size: 12px;
     width: 380px;
     height: 154px;
-    border: 5px solid;
+    border: 2px solid;
     cursor: pointer;
     border-style: ridge;
     background: #35353570;
@@ -516,8 +514,6 @@ body {
     top: 50%;
     left: 0%;
     background-attachment: fixed;
-    border-style: hidden;
-    border-width: 2px;
     transition: transform 0.5s;
     margin-top: 154px;
     margin-left: 14px;
@@ -528,7 +524,7 @@ body {
     font-size: 12px;
     width: 380px;
     height: 154px;
-    border: 5px solid;
+    border: 2px solid;
     cursor: pointer;
     border-style: ridge;
     background: #35353570;
@@ -553,8 +549,6 @@ body {
     text-overflow: ellipsis;
     font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
     font-weight: 100;
-    border-style: hidden;
-    border-width: 2px;
     transition: transform 0.5s;
     margin-top: 108px;
     margin-left: 14px;
@@ -562,7 +556,7 @@ body {
 
 .soundcloud iframe {
     font-size: 12px;
-    border: 5px solid;
+    border: 2px solid;
     cursor: pointer;
     border-style: ridge;
     background: #00000070;
@@ -587,7 +581,7 @@ body {
     bottom: 0;
     right: 10;
     z-index: 7;
-    font-size: 7px;
+    font-size: 6px;
 
 }
 
