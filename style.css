@@ -8,6 +8,7 @@ body {
     background-position: center;
     font-family: sans-serif;
     background-repeat: no-repeat;
+    font-family: 'Chivo Mono', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -390,6 +391,7 @@ body {
     background-position-y: 0px;
     background-blend-mode: darken;
     border-bottom-right-radius: 20px;
+
 }
 
 .buttons2 {
@@ -434,7 +436,7 @@ body {
 
 
 .buttons button {
-    font-size: 12px;
+    font-size: 10px;
     width: 280px;
     height: 24px;
     border: 1px rgba(0, 0, 139, 0.493);
@@ -445,12 +447,13 @@ body {
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
+    font-family: 'Chivo Mono', serif;
 
 
 }
 
 .buttons2 button {
-    font-size: 12px;
+    font-size: 10px;
     width: 280px;
     height: 24px;
     border: 1px rgba(0, 0, 139, 0.493);
@@ -461,12 +464,13 @@ body {
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
+    font-family: 'Chivo Mono', serif;
 
 
 }
 
 .buttons3 button {
-    font-size: 12px;
+    font-size: 10px;
     width: 280px;
     height: 24px;
     border: 1px rgba(0, 0, 139, 0.493);
@@ -477,6 +481,7 @@ body {
     background: #35353570;
     color: rgb(255, 255, 255);
     text-align: left;
+    font-family: 'Chivo Mono', serif;
 
 }
 
@@ -574,7 +579,7 @@ body {
     transition: transform 0.5s ease;
 }
 
-.footer {
+.ft {
     margin: 0;
     color: white;
     position: fixed;
