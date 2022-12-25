@@ -318,11 +318,9 @@ body {
 }
 
 .icon2 {
-    width: 42px;
-    height: 42px;
+    width: 28px;
+    height: 28px;
     background-attachment: fixed;
-    margin-top: 3px;
-    padding-right: 8px;
     transition: transform 0.09s;
     text-shadow: white;
     background: transparent;
@@ -363,8 +361,8 @@ body {
     z-index: 5;
     bottom: 1%;
     right: 1%;
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     margin-left: 0px;
     border-style: ridge;
     border-width: 2px;
@@ -379,7 +377,7 @@ body {
     grid-row-end: 2;
     margin-top: 20px;
     background-attachment: local;
-    background-color: rgba(0, 0, 0, 0.925);
+    background-color: rgba(0, 0, 0, 0.899);
     border-style: ridge;
     border-width: 2px;
     background-image: url('resources/images/spider2.gif');
@@ -400,7 +398,7 @@ body {
     grid-row-end: 2;
     margin-top: 20px;
     background-attachment: local;
-    background-color: rgba(0, 0, 0, 0.925);
+    background-color: rgba(0, 0, 0, 0.899);
     border-style: ridge;
     border-width: 2px;
     background-image: url('resources/images/spider2.gif');
@@ -421,7 +419,7 @@ body {
     grid-row-end: 2;
     margin-top: 20px;
     background-attachment: local;
-    background-color: rgba(0, 0, 0, 0.925);
+    background-color: rgba(0, 0, 0, 0.899);
     border-style: ridge;
     border-width: 2px;
     background-image: url('resources/images/spider2.gif');
@@ -446,7 +444,7 @@ body {
     font-family: 'Chivo Mono', serif;
     background: transparent;
     border: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     outline: none;
 
 
@@ -462,7 +460,7 @@ body {
     text-align: left;
     border: hidden;
     font-family: 'Chivo Mono', serif;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     outline: none;
 
 
@@ -477,7 +475,7 @@ body {
     color: rgb(255, 255, 255);
     text-align: left;
     font-family: 'Chivo Mono', serif;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     border: hidden;
     outline: none;
 
@@ -488,7 +486,7 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    bottom: 10%;
+    bottom: 6%;
     right: 0%;
     background-attachment: fixed;
     transition: transform 0.5s;
@@ -513,7 +511,7 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    bottom: 10%;
+    bottom: 6%;
     right: 0%;
     background-attachment: fixed;
     transition: transform 0.5s;
@@ -539,7 +537,7 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    bottom: 10%;
+    bottom: 6%;
     right: 0%;
     background-attachment: fixed;
     font-size: 10px;

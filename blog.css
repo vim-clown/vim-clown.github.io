@@ -27,21 +27,22 @@ body {
     background-attachment: fixed;
     border-width: 2px;
     transition: transform 0.09s;
+    z-index: 2;
 
 }
 
 .content {
-    margin-top: 120px;
-    margin-left: 50px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
     background-color: black;
-    max-width: fit-content;
-    max-height: fit-content;
 
 }
 
 .welp {
     height: auto;
     max-width: 80%;
+    image-rendering: optimizeQuality;
 }
 
 .back:hover {

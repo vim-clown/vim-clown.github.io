@@ -243,6 +243,7 @@ function sprinkleImages() {
   up2.style.backgroundImage = "url('resources/images/stack.gif')";
   up2.style.backgroundSize = "cover";
   up2.style.backgroundPosition = "center";
+  up2.style.backgroundRepeat = "no-repeat";
 
   b0dy.style.background = "linear-gradient(to right, #000000, #30000057)";
   b0dy.style.backgroundImage = "url('resources/images/stack.gif')";
@@ -255,11 +256,13 @@ function sprinkleImages() {
   buttons2.style.backgroundImage = "url('resources/images/stack.gif')";
   buttons2.style.backgroundSize = "cover";
   buttons2.style.backgroundPosition = "center";
+  buttons2.style.backgroundRepeat = "no-repeat";
 
   titlec.style.background = "linear-gradient(to right, #000000, #30000057)";
   titlec.style.backgroundImage = "url('resources/images/stack.gif')";
   titlec.style.backgroundSize = "cover";
   titlec.style.backgroundPosition = "center";
+  titlec.style.backgroundRepeat = "no-repeat";
 
   for (var i = 1; i < 4; i++) {
     var bm = document.querySelector('.bm');
