@@ -6,6 +6,10 @@ body {
     font-family: sans-serif;
     color: white;
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 @-ms-viewport {
@@ -31,18 +35,17 @@ body {
 
 }
 
+
 .content {
     padding-top: 100px;
     display: flex;
     justify-content: center;
-    background-color: black;
 
 }
 
 .welp {
     height: auto;
     max-width: 80%;
-    image-rendering: optimizeQuality;
 }
 
 .back:hover {

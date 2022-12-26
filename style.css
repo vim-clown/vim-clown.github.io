@@ -196,10 +196,6 @@ body {
 .up {
     display: none;
     font-size: 16px;
-    grid-column-start: 0;
-    grid-column-end: 0;
-    grid-row-start: 0;
-    grid-row-end: 0;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     background-attachment: fixed;
@@ -209,6 +205,7 @@ body {
     padding: 6px 12px;
     transition: transform 0.09s;
     cursor: pointer;
+    float: right;
 }
 
 .title3 {
@@ -261,10 +258,6 @@ body {
 .up2 {
     display: none;
     font-size: 16px;
-    grid-column-start: 0;
-    grid-column-end: 0;
-    grid-row-start: 0;
-    grid-row-end: 0;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     background-attachment: fixed;
@@ -274,15 +267,12 @@ body {
     padding: 6px 12px;
     transition: transform 0.09s;
     cursor: pointer;
+    float: left;
 }
 
 .up3 {
     display: none;
     font-size: 16px;
-    grid-column-start: 0;
-    grid-column-end: 0;
-    grid-row-start: 0;
-    grid-row-end: 0;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     background-attachment: fixed;
@@ -292,6 +282,7 @@ body {
     padding: 6px 12px;
     transition: transform 0.09s;
     cursor: pointer;
+    float: left;
 }
 
 
@@ -357,15 +348,12 @@ body {
 
 .icon5 {
     display: none;
-    position: absolute;
+    float: right;
     z-index: 5;
-    bottom: 1%;
-    right: 1%;
-    width: 20px;
-    height: 20px;
-    margin-left: 0px;
+    width: 0px;
+    height: 0px;
     border-style: ridge;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 50%;
 }
 
@@ -387,7 +375,6 @@ body {
     background-position-y: 0px;
     background-blend-mode: darken;
     border-bottom-right-radius: 20px;
-
 }
 
 .buttons2 {
@@ -610,19 +597,25 @@ body {
 }
 
 .up:hover {
-    background: #8b8b8b;
-    color: rgb(0, 0, 0);
-    transform: translateY(-5px);
+    background-color: transparent;
+    background-image: url('resources/images/PdGN.gif');
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: darken;
 }
 
 .up2:hover {
-    background: #8b8b8b;
-    color: rgb(0, 0, 0);
-    transform: translateY(-5px);
+    background-color: transparent;
+    background-image: url('resources/images/PdGN.gif');
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: darken;
 }
 
 .up3:hover {
-    background: #8b8b8b;
-    color: rgb(0, 0, 0);
-    transform: translateY(-5px);
+    background-color: transparent;
+    background-image: url('resources/images/PdGN.gif');
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: darken;
 }
