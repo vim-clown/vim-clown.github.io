@@ -4,6 +4,91 @@ window.onload = function () {
   splash.style.display = 'none';
 };
 
+function clearWindow1() {
+  var buttons = document.querySelector('.spotify');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
+
+  buttons.style.display = 'none';
+  icon3.style.display = 'none';
+  icon2.style.display = 'none';
+  icon1.style.display = 'grid';
+  icon1.classList.add("rotated");
+  icon1.style.transition = "transform 0.5s";
+  icon1.style.transform = "rotate(360deg)";
+}
+
+function clearWindow2() {
+  var buttons = document.querySelector('.spotify2');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
+
+  buttons.style.display = 'none';
+  icon3.style.display = 'none';
+  icon2.style.display = 'grid';
+  icon1.style.display = 'none';
+  icon2.classList.add("rotated");
+  icon2.style.transition = "transform 0.5s";
+  icon2.style.transform = "rotate(360deg)";
+}
+
+function clearWindow3() {
+  var buttons = document.querySelector('.spotify3');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
+
+  buttons.style.display = 'none';
+  icon3.style.display = 'grid';
+  icon2.style.display = 'none';
+  icon1.style.display = 'none';
+  icon3.classList.add("rotated");
+  icon3.style.transition = "transform 0.5s";
+  icon3.style.transform = "rotate(360deg)";
+}
+
+function showWindow1() {
+  var buttons = document.querySelector('.spotify');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
+
+  icon1.classList.add("rotated");
+  icon1.style.transition = "transform 0.5s";
+  icon1.style.transform = "rotate(360deg)";
+  buttons.style.display = 'grid';
+  icon1.style.display = 'none'; 
+
+}
+function showWindow2() {
+  var buttons = document.querySelector('.spotify2');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
+
+  icon2.classList.add("rotated");
+  icon2.style.transition = "transform 0.5s";
+  icon2.style.transform = "rotate(360deg)";
+  buttons.style.display = 'grid';
+  icon2.style.display = 'none'; 
+
+}
+function showWindow3() {
+  var buttons = document.querySelector('.spotify3');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
+
+  icon3.classList.add("rotated");
+  icon3.style.transition = "transform 0.5s";
+  icon3.style.transform = "rotate(360deg)";
+  buttons.style.display = 'grid';
+  icon3.style.display = 'none'; 
+
+}
+
 function showButtons(icon) {
   var buttons = document.querySelector('.buttons');
   var title = document.querySelector('.title2');
@@ -64,7 +149,6 @@ function swButtons(icon) {
   var up = document.querySelector('.up3');
   var ic = document.querySelector('.icon3');
   var ic4 = document.querySelector('.icon4');
-  var ic5 = document.querySelector('.icon5');
   document.title = 'Deskflop';
 
   if (buttons.style.display === 'none') {
@@ -74,7 +158,6 @@ function swButtons(icon) {
     root.style.display = 'none';
     titled.style.display = 'grid';
     up.style.display = 'grid';
-    ic5.style.display = 'grid';
     bm.style.transform = "rotate(25deg)";
 
     buttons1.style.display = 'none';
@@ -88,7 +171,6 @@ function swButtons(icon) {
     icon.style.display = 'grid';
     titled.style.display = 'none';
     root.style.display = 'grid';
-    ic5.style.display = 'none';
     bm.style.transform = "rotate(-25deg)";
     bm.style.transform = "rotate(0deg)";
 
@@ -104,14 +186,11 @@ function swButtons(icon) {
 function showSpotify() {
   var buttons = document.querySelector('.spotify');
   var buttons2 = document.querySelector('.spotify2');
-  var buttons3 = document.querySelector('.soundcloud');
+  var buttons3 = document.querySelector('.spotify3');
   var bm = document.querySelector('.bm');
-  var icon = document.querySelector('.icon5');
+
 
   if (buttons.style.display === 'none') {
-    icon.classList.add("rotated");
-    icon.style.transition = "transform 0.5s";
-    icon.style.transform = "rotate(360deg)";
     buttons.style.display = 'grid';
     buttons2.style.display = 'none';
     buttons3.style.display = 'none';
@@ -120,22 +199,16 @@ function showSpotify() {
     buttons.style.display = 'none';
     buttons2.style.display = 'none';
     buttons3.style.display = 'none';
-    icon.classList.remove("rotated");
-    icon.style.transform = "rotate(0deg)";
   }
 }
 
 function showSpotify2() {
   var buttons = document.querySelector('.spotify');
   var buttons2 = document.querySelector('.spotify2');
-  var buttons3 = document.querySelector('.soundcloud');
+  var buttons3 = document.querySelector('.spotify3');
   var bm = document.querySelector('.bm');
-  var icon = document.querySelector('.icon5');
 
   if (buttons2.style.display === 'none') {
-    icon.classList.add("rotated");
-    icon.style.transition = "transform 0.5s";
-    icon.style.transform = "rotate(360deg)";
     buttons2.style.display = 'grid';
     buttons.style.display = 'none';
     buttons3.style.display = 'none';
@@ -144,22 +217,17 @@ function showSpotify2() {
     buttons2.style.display = 'none';
     buttons.style.display = 'none';
     buttons3.style.display = 'none';
-    icon.classList.remove("rotated");
-    icon.style.transform = "rotate(0deg)";
   }
 }
 
-function showSoundcloud() {
+function showSpotify3() {
   var buttons = document.querySelector('.spotify');
   var buttons2 = document.querySelector('.spotify2');
-  var buttons3 = document.querySelector('.soundcloud');
+  var buttons3 = document.querySelector('.spotify3');
   var bm = document.querySelector('.bm');
-  var icon = document.querySelector('.icon5');
+
 
   if (buttons3.style.display === 'none') {
-    icon.classList.add("rotated");
-    icon.style.transition = "transform 0.5s";
-    icon.style.transform = "rotate(360deg)";
     buttons3.style.display = 'grid';
     buttons2.style.display = 'none';
     buttons.style.display = 'none';
@@ -168,8 +236,6 @@ function showSoundcloud() {
     buttons3.style.display = 'none';
     buttons2.style.display = 'none';
     buttons.style.display = 'none';
-    icon.classList.remove("rotated");
-    icon.style.transform = "rotate(0deg)";
   }
 }
 

@@ -33,6 +33,7 @@
                               src="resources/images/mstdn.gif" /><br>The site which must not be
                         named</button>
             </ul><br>
+
       </fieldset>
       <img class="icon3" src="resources/images/blf.ico" ondblclick="showEmpty(this)" />
       <h7 class="title3">documents</h7>
@@ -55,32 +56,37 @@
                   <button id="sp" ondblclick="showSpotify2(this)"><img class="icon2"
                               src="resources/images/transparent-playlist-icon-5daf4c589d9501.3183017715717694326455.png" /><br>Dark
                         Trap</button>
-                  <button id="sp" ondblclick="showSoundcloud(this)"><img class="icon2"
-                              src="resources/images/transparent-playlist-icon-5daf4c589d9501.3183017715717694326455.png" /><br>SC
-                        playlist</button>
+                  <button id="sp" ondblclick="showSpotify3(this)"><img class="icon2"
+                              src="resources/images/transparent-playlist-icon-5daf4c589d9501.3183017715717694326455.png" /><br>Circus
+                  </button>
             </ul>
       </fieldset>
-      <img class="icon5" src="resources/images/cd.png" />
+      <img class="icon5_1" src="resources/images/chad-music-music.gif" onclick="showWindow1()"/>
+      <img class="icon5_2" src="resources/images/chad-music-music.gif" onclick="showWindow2()"/>
+      <img class="icon5_3" src="resources/images/chad-music-music.gif" onclick="showWindow3()"/>
       <h7 class="title4">music</h7>
       <img class="bm" src="resources/images/hql1.png" /><br>
-      <div class="spotify">
+      <fieldset class="spotify" draggable="true">
+            <legend class="minimize" align="right" onclick="clearWindow1(this)">minimize</legend>
             <iframe style="border-radius:12px"
                   src="https://open.spotify.com/embed/playlist/0AZzZRxfPCdGcorLuYoY3h?utm_source=generator&theme=0"
                   width="100%" height="380" frameBorder="0" allowfullscreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      </div>
-      <div class="spotify2">
+      </fieldset>
+      <fieldset class="spotify2" draggable="true">
+            <legend class="minimize" align="right" onclick="clearWindow2(this)">minimize</legend>
             <iframe style="border-radius:12px"
                   src="https://open.spotify.com/embed/playlist/51nIvcEghWgc5sx5z7fqlW?utm_source=generator&theme=0"
                   width="100%" height="380" frameBorder="0" allowfullscreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      </div>
-
-      <div class="soundcloud">
-            <iframe width="300px" height="204px" scrolling="yes" frameborder="0"
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1376864104&color=%231b1712&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-      </div>
+      </fieldset>
+      <fieldset class="spotify3" draggable="true">
+            <legend class="minimize" align="right" onclick="clearWindow3(this)">minimize</legend>
+            <iframe style="border-radius:12px"
+                  src="https://open.spotify.com/embed/playlist/22y0QaF2ObCspOGT6BO7Xh?utm_source=generator&theme=0"
+                  width="100%" height="380" frameBorder="0" allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </fieldset>
       <div class="overlay">
             <img src="resources/images/hq/ergo_proxy___gif_re_l_mayer__4__by_degonia_d8mtmfg.gif" alt="starting...">
             <div class="wait-prompt">

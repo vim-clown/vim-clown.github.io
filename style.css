@@ -193,6 +193,22 @@ body {
 
 }
 
+.minimize {
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #282828;
+    background-attachment: fixed;
+    max-width: fit-content;
+    border-width: 2px;
+    border-style: groove;
+    padding: 6px 12px;
+    transition: transform 0.09s;
+    cursor: pointer;
+    float: left;
+    margin-left: auto;
+
+}
+
 .up {
     display: none;
     font-size: 16px;
@@ -205,7 +221,8 @@ body {
     padding: 6px 12px;
     transition: transform 0.09s;
     cursor: pointer;
-    float: right;
+    float: left;
+    margin-left: auto;
 }
 
 .title3 {
@@ -268,6 +285,7 @@ body {
     transition: transform 0.09s;
     cursor: pointer;
     float: left;
+    margin-left: auto;
 }
 
 .up3 {
@@ -283,6 +301,7 @@ body {
     transition: transform 0.09s;
     cursor: pointer;
     float: left;
+    margin-left: auto;
 }
 
 
@@ -346,15 +365,43 @@ body {
 
 }
 
-.icon5 {
+.icon5_1 {
     display: none;
-    float: right;
+    float: bottom left;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
     z-index: 5;
-    width: 0px;
-    height: 0px;
-    border-style: ridge;
-    border-width: 1px;
-    border-radius: 50%;
+    width: 40px;
+    height: auto;
+    border-radius: 10%;
+    background: transparent;
+}
+
+.icon5_2 {
+    display: none;
+    float: bottom left;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    z-index: 5;
+    width: 40px;
+    height: auto;
+    border-radius: 10%;
+    background: transparent;
+}
+
+.icon5_3 {
+    display: none;
+    float: bottom left;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    z-index: 5;
+    width: 40px;
+    height: auto;
+    border-radius: 10%;
+    background: transparent;
 }
 
 .buttons {
@@ -432,6 +479,7 @@ body {
     background: transparent;
     border: hidden;
     margin-bottom: 24px;
+    margin-top: 0px;
     outline: none;
 
 
@@ -448,6 +496,7 @@ body {
     border: hidden;
     font-family: 'Chivo Mono', serif;
     margin-bottom: 24px;
+    margin-top: 0px;
     outline: none;
 
 
@@ -463,6 +512,7 @@ body {
     text-align: left;
     font-family: 'Chivo Mono', serif;
     margin-bottom: 24px;
+    margin-top: 0px;
     border: hidden;
     outline: none;
 
@@ -473,24 +523,25 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    bottom: 6%;
+    bottom: 2%;
     right: 0%;
     background-attachment: fixed;
     transition: transform 0.5s;
     margin-right: 10px;
+    border: 2px solid;
+    border-style: ridge;
+    background: #282828;
+    color: rgb(255, 255, 255);
 
 }
 
 .spotify iframe {
     font-size: 12px;
-    width: 300px;
+    width: 320px;
     height: 154px;
-    border: 2px solid;
     cursor: pointer;
-    border-style: ridge;
-    background: #35353570;
-    color: rgb(255, 255, 255);
     text-align: left;
+    border: hidden;
 
 }
 
@@ -498,58 +549,54 @@ body {
     display: none;
     position: absolute;
     z-index: 5;
-    bottom: 6%;
+    bottom: 2%;
     right: 0%;
     background-attachment: fixed;
     transition: transform 0.5s;
     margin-top: 154px;
     margin-right: 10px;
+    border: 2px solid;
+    border-style: ridge;
+    background: #282828;
+    color: rgb(255, 255, 255);
 
 }
 
 .spotify2 iframe {
     font-size: 12px;
-    width: 300px;
+    width: 320px;
     height: 154px;
-    border: 2px solid;
     cursor: pointer;
-    border-style: ridge;
-    background: #35353570;
-    color: rgb(255, 255, 255);
     text-align: left;
+    border: hidden;
 
 }
 
-.soundcloud {
+.spotify3 {
     display: none;
     position: absolute;
     z-index: 5;
-    bottom: 6%;
+    bottom: 2%;
     right: 0%;
     background-attachment: fixed;
-    font-size: 10px;
-    color: #000000;
-    line-break: anywhere;
-    word-break: normal;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-    font-weight: 100;
     transition: transform 0.5s;
-    margin-top: 108px;
+    margin-top: 154px;
     margin-right: 10px;
+    border: 2px solid;
+    border-style: ridge;
+    background: #282828;
+    color: rgb(255, 255, 255);
+
 }
 
-.soundcloud iframe {
+.spotify3 iframe {
     font-size: 12px;
-    border: 2px solid;
+    width: 320px;
+    height: 154px;
     cursor: pointer;
-    border-style: ridge;
-    background: #00000070;
-    color: rgb(255, 255, 255);
     text-align: left;
-    border-radius: 12px;
+    border: hidden;
+
 }
 
 .bm {
@@ -618,4 +665,8 @@ body {
     background-size: contain;
     background-position: center;
     background-blend-mode: darken;
+}
+
+.minimize:hover {
+    background-color: rgb(0, 0, 0);
 }
