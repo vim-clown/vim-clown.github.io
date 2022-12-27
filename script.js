@@ -59,9 +59,9 @@ function showWindow1() {
   icon1.style.transition = "transform 0.5s";
   icon1.style.transform = "rotate(360deg)";
   buttons.style.display = 'grid';
-  icon1.style.display = 'none'; 
-  icon2.style.display = 'none'; 
-  icon3.style.display = 'none';  
+  icon1.style.display = 'none';
+  icon2.style.display = 'none';
+  icon3.style.display = 'none';
 
 }
 function showWindow2() {
@@ -74,9 +74,9 @@ function showWindow2() {
   icon2.style.transition = "transform 0.5s";
   icon2.style.transform = "rotate(360deg)";
   buttons.style.display = 'grid';
-  icon1.style.display = 'none'; 
-  icon2.style.display = 'none'; 
-  icon3.style.display = 'none'; 
+  icon1.style.display = 'none';
+  icon2.style.display = 'none';
+  icon3.style.display = 'none';
 
 }
 function showWindow3() {
@@ -89,9 +89,9 @@ function showWindow3() {
   icon3.style.transition = "transform 0.5s";
   icon3.style.transform = "rotate(360deg)";
   buttons.style.display = 'grid';
-  icon1.style.display = 'none'; 
-  icon2.style.display = 'none'; 
-  icon3.style.display = 'none'; 
+  icon1.style.display = 'none';
+  icon2.style.display = 'none';
+  icon3.style.display = 'none';
 
 }
 
@@ -193,18 +193,24 @@ function showSpotify() {
   var buttons = document.querySelector('.spotify');
   var buttons2 = document.querySelector('.spotify2');
   var buttons3 = document.querySelector('.spotify3');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
   var bm = document.querySelector('.bm');
+
+  icon3.style.display = 'none';
+  icon2.style.display = 'none';
+  icon1.style.display = 'none';
+
+  buttons2.style.display = 'none';
+  buttons3.style.display = 'none';
 
 
   if (buttons.style.display === 'none') {
     buttons.style.display = 'grid';
-    buttons2.style.display = 'none';
-    buttons3.style.display = 'none';
 
   } else {
     buttons.style.display = 'none';
-    buttons2.style.display = 'none';
-    buttons3.style.display = 'none';
   }
 }
 
@@ -213,16 +219,22 @@ function showSpotify2() {
   var buttons2 = document.querySelector('.spotify2');
   var buttons3 = document.querySelector('.spotify3');
   var bm = document.querySelector('.bm');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
+
+  icon3.style.display = 'none';
+  icon2.style.display = 'none';
+  icon1.style.display = 'none';
+
+  buttons.style.display = 'none';
+  buttons3.style.display = 'none';
 
   if (buttons2.style.display === 'none') {
     buttons2.style.display = 'grid';
-    buttons.style.display = 'none';
-    buttons3.style.display = 'none';
 
   } else {
     buttons2.style.display = 'none';
-    buttons.style.display = 'none';
-    buttons3.style.display = 'none';
   }
 }
 
@@ -231,17 +243,22 @@ function showSpotify3() {
   var buttons2 = document.querySelector('.spotify2');
   var buttons3 = document.querySelector('.spotify3');
   var bm = document.querySelector('.bm');
+  var icon1 = document.querySelector('.icon5_1');
+  var icon2 = document.querySelector('.icon5_2');
+  var icon3 = document.querySelector('.icon5_3');
 
+  icon3.style.display = 'none';
+  icon2.style.display = 'none';
+  icon1.style.display = 'none';
+
+  buttons2.style.display = 'none';
+  buttons.style.display = 'none';
 
   if (buttons3.style.display === 'none') {
     buttons3.style.display = 'grid';
-    buttons2.style.display = 'none';
-    buttons.style.display = 'none';
 
   } else {
     buttons3.style.display = 'none';
-    buttons2.style.display = 'none';
-    buttons.style.display = 'none';
   }
 }
 
