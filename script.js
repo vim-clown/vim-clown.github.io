@@ -60,6 +60,8 @@ function showWindow1() {
   icon1.style.transform = "rotate(360deg)";
   buttons.style.display = 'grid';
   icon1.style.display = 'none'; 
+  icon2.style.display = 'none'; 
+  icon3.style.display = 'none';  
 
 }
 function showWindow2() {
@@ -72,7 +74,9 @@ function showWindow2() {
   icon2.style.transition = "transform 0.5s";
   icon2.style.transform = "rotate(360deg)";
   buttons.style.display = 'grid';
+  icon1.style.display = 'none'; 
   icon2.style.display = 'none'; 
+  icon3.style.display = 'none'; 
 
 }
 function showWindow3() {
@@ -85,6 +89,8 @@ function showWindow3() {
   icon3.style.transition = "transform 0.5s";
   icon3.style.transform = "rotate(360deg)";
   buttons.style.display = 'grid';
+  icon1.style.display = 'none'; 
+  icon2.style.display = 'none'; 
   icon3.style.display = 'none'; 
 
 }
