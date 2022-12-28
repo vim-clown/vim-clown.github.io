@@ -1,87 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
       <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="description" content="web development is hard">
       <meta name="author" content="vim-clown">
       <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0">
-      <link rel="stylesheet" , href="style.css" />
+      <link rel="stylesheet" , href="css/style.css" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chivo+Mono">
-      <script src="script.js"></script>
       <title>Starting...</title>
-
 </head>
 
 <body>
-
       <h1 class="title">~/vim-clown</h1>
-      <h1 class="titleb">~/vim-clown/links/</h1>
-      <h1 class="titlec">~/vim-clown/documents/</h1>
-      <h1 class="titled">~/vim-clown/music/</h1>
-      <img class="icon" src="resources/images/blf.ico" ondblclick="showButtons(this)" />
+      <img class="icon" src="resources/images/blf.ico" ondblclick="showLinks()" />
       <h7 class="title2">links</h7>
       <fieldset class="buttons">
-            <legend class="up" onclick="showButtons(this)">↰</legend>
-            <ul><button class="el" ondblclick="window.open('https://vim-clown.com/blog', '_self')"><img class="icon2"
+            <legend class="up" onclick="showLinks()">↰</legend>
+            <ul>
+                  <button ondblclick="window.open('https://vim-clown.com/blog', '_self')"><img class="icon2"
                               src="resources/images/blog.gif" /><br>Blog</button>
-                  <button class="el" ondblclick="window.open('https://github.com/vim-clown')"><img class="icon2"
+                  <button ondblclick="window.open('https://github.com/vim-clown')"><img class="icon2"
                               src="resources/images/github-6-512.ico" /><br>Github</button>
-                  <button class="el" ondblclick="window.open('https://soundcloud.com/cetropos')"><img class="icon2"
+                  <button ondblclick="window.open('https://soundcloud.com/cetropos')"><img class="icon2"
                               src="resources/images/soundcloud-256.png" /><br>Soundcloud</button>
-                  <button class="el" ondblclick="window.open('https://hachyderm.io/@entity')"><img class="icon2"
+                  <button ondblclick="window.open('https://hachyderm.io/@entity')"><img class="icon2"
                               src="resources/images/mstdn.gif" /><br>The site which must not be
                         named</button>
             </ul><br>
-
       </fieldset>
-      <img class="icon3" src="resources/images/blf.ico" ondblclick="showEmpty(this)" />
+      <img class="icon3" src="resources/images/blf.ico" ondblclick="showDocs()" />
       <h7 class="title3">documents</h7>
       <fieldset class="buttons2">
-            <legend class="up2" onclick="showEmpty(this)">↰</legend>
-            <ul><button class="el" ondblclick="window.open('https://www.youtube.com/watch?v=zAs5QBK_x1Q')"><img
-                              class="icon2" src="resources/images/wt.png" /><br>le backroom (external link)</button>
-                  <button class="el" ondblclick="window.open('resources/docs/winXP_key.txt')"><img class="icon2"
+            <legend class="up2" onclick="showDocs()">↰</legend>
+            <ul>
+                  <button ondblclick="window.open('https://www.youtube.com/watch?v=zAs5QBK_x1Q')"><img class="icon2"
+                              src="resources/images/wt.png" /><br>le backroom (external link)</button>
+                  <button ondblclick="window.open('resources/docs/winXP_key.txt')"><img class="icon2"
                               src="resources/images/txt.png" /><br>winXP.txt</button>
-                  <button id="sp" ondblclick="sprinkleImages()"><img class="icon2"
+                  <button ondblclick="sprinkleImages()"><img class="icon2"
                               src="resources/images/sh.png" /><br>notworthit.sh</button>
             </ul><br>
       </fieldset>
-      <img class="icon4" src="resources/images//blf.ico" ondblclick="swButtons(this)" />
+      <img class="icon4" src="resources/images//blf.ico" ondblclick="showMusic()" />
       <fieldset class="buttons3">
-            <legend class="up3" onclick="swButtons(this)">↰</legend>
-            <ul><button id="sp" ondblclick="showSpotify(this)"><img class="icon2"
+            <legend class="up3" onclick="showMusic()">↰</legend>
+            <ul>
+                  <button ondblclick="showSpotify()"><img class="icon2"
                               src="resources/images/transparent-playlist-icon-5daf4c589d9501.3183017715717694326455.png" /><br>Witch
                         house & Wave</button>
-                  <button id="sp" ondblclick="showSpotify2(this)"><img class="icon2"
+                  <button ondblclick="showSpotify2()"><img class="icon2"
                               src="resources/images/transparent-playlist-icon-5daf4c589d9501.3183017715717694326455.png" /><br>Dark
                         Trap</button>
-                  <button id="sp" ondblclick="showSpotify3(this)"><img class="icon2"
+                  <button ondblclick="showSpotify3()"><img class="icon2"
                               src="resources/images/transparent-playlist-icon-5daf4c589d9501.3183017715717694326455.png" /><br>Circus
                   </button>
             </ul>
       </fieldset>
-      <img class="icon5_1" src="resources/images/chad-music-music.gif" onclick="showWindow1()"/>
-      <img class="icon5_2" src="resources/images/chad-music-music.gif" onclick="showWindow2()"/>
-      <img class="icon5_3" src="resources/images/chad-music-music.gif" onclick="showWindow3()"/>
+      <img class="icon5_1" src="resources/images/chad-music-music.gif" onclick="showWindow1()" />
+      <img class="icon5_2" src="resources/images/chad-music-music.gif" onclick="showWindow2()" />
+      <img class="icon5_3" src="resources/images/chad-music-music.gif" onclick="showWindow3()" />
       <h7 class="title4">music</h7>
-      <img class="bm" src="resources/images/hql1.png" /><br>
       <fieldset class="spotify" draggable="true">
-            <legend class="minimize" align="right" onclick="clearWindow1(this)">minimize</legend>
+            <legend class="minimize" align="right" onclick="clearWindow1()">minimize</legend>
             <iframe style="border-radius:12px"
                   src="https://open.spotify.com/embed/playlist/0AZzZRxfPCdGcorLuYoY3h?utm_source=generator&theme=0"
                   width="100%" height="380" frameBorder="0" allowfullscreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </fieldset>
       <fieldset class="spotify2" draggable="true">
-            <legend class="minimize" align="right" onclick="clearWindow2(this)">minimize</legend>
+            <legend class="minimize" align="right" onclick="clearWindow2()">minimize</legend>
             <iframe style="border-radius:12px"
                   src="https://open.spotify.com/embed/playlist/51nIvcEghWgc5sx5z7fqlW?utm_source=generator&theme=0"
                   width="100%" height="380" frameBorder="0" allowfullscreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </fieldset>
       <fieldset class="spotify3" draggable="true">
-            <legend class="minimize" align="right" onclick="clearWindow3(this)">minimize</legend>
+            <legend class="minimize" align="right" onclick="clearWindow3()">minimize</legend>
             <iframe style="border-radius:12px"
                   src="https://open.spotify.com/embed/playlist/22y0QaF2ObCspOGT6BO7Xh?utm_source=generator&theme=0"
                   width="100%" height="380" frameBorder="0" allowfullscreen=""
@@ -99,10 +95,10 @@
                   </div>
             </div>
       </div>
-
-      <footer class="ft">
-            <p></p>
-      </footer>
-
-
+      <script defer src="scripts/splash.js"></script>
+      <script defer src="scripts/folders.js"></script>
+      <script defer src="scripts/player.js"></script>
+      <script defer src="scripts/flop.js"></script>
 </body>
+
+</html>
