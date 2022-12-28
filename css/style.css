@@ -136,8 +136,40 @@ body {
     padding: 6px 12px;
     transition: transform 0.09s;
     cursor: pointer;
-    float: left;
+    float: right;
     margin-left: auto;
+
+}
+
+.minimize2 {
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #282828;
+    background-attachment: fixed;
+    max-width: fit-content;
+    border-width: 1px;
+    border-style: groove;
+    padding: 6px 12px;
+    border-style: groove;
+    transition: transform 0.09s;
+    cursor: pointer;
+    float: right;
+
+}
+
+.quit {
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #282828;
+    background-attachment: fixed;
+    max-width: fit-content;
+    border-width: 1px;
+    border-style: groove;
+    padding: 6px 12px;
+    border-style: groove;
+    transition: transform 0.09s;
+    cursor: pointer;
+    float: left;
 
 }
 
@@ -343,6 +375,34 @@ body {
     cursor: pointer;
 }
 
+.icon5_4 {
+    display: none;
+    float: bottom left;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    z-index: 5;
+    width: 40px;
+    height: auto;
+    border-radius: 10%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.icon5_5 {
+    display: none;
+    float: bottom left;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    z-index: 5;
+    width: 40px;
+    height: auto;
+    border-radius: 10%;
+    background: transparent;
+    cursor: pointer;
+}
+
 .buttons {
     display: none;
     grid-column-start: 0;
@@ -408,9 +468,9 @@ body {
 
 .buttons button {
     font-size: 10px;
-    width: 200px;
+    width: 120px;
     height: 64px;
-    border: 1px rgba(0, 0, 139, 0.493);
+    border: 4px rgba(0, 0, 139, 0.493);
     cursor: pointer;
     color: rgb(255, 255, 255);
     text-align: left;
@@ -426,7 +486,7 @@ body {
 
 .buttons2 button {
     font-size: 10px;
-    width: 200px;
+    width: 120px;
     height: 64px;
     cursor: pointer;
     background: transparent;
@@ -443,7 +503,7 @@ body {
 
 .buttons3 button {
     font-size: 10px;
-    width: 200px;
+    width: 120px;
     height: 64px;
     cursor: pointer;
     background: transparent;
@@ -536,6 +596,50 @@ body {
     text-align: left;
     border: hidden;
 
+}
+
+.vibing {
+    margin-top: 4px;
+    cursor: pointer;
+    border: 2px solid;
+    border-style: ridge;
+
+}
+
+.backrooms {
+    margin-top: 4px;
+    cursor: pointer;
+    border: 2px solid;
+    border-style: ridge;
+
+}
+
+.field {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    right: 20%;
+    left: auto;
+    width: 240px;
+    height: fit-content;
+    border: 2px solid;
+    border-style: ridge;
+    background-color: black;
+    
+}
+
+.field2 {
+    display: none;
+    position: absolute;
+    bottom: 28%;
+    right: 24%;
+    left: auto;
+    width: 240px;
+    height: fit-content;
+    border: 2px solid;
+    border-style: ridge;
+    background-color: black;
+    
 }
 
 .icon:hover {
