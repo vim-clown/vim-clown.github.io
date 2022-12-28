@@ -618,7 +618,7 @@ body {
     display: none;
     position: absolute;
     bottom: 50%;
-    right: 20%;
+    right: 12%;
     left: auto;
     width: 240px;
     height: fit-content;
@@ -632,7 +632,7 @@ body {
     display: none;
     position: absolute;
     bottom: 28%;
-    right: 24%;
+    right: 14%;
     left: auto;
     width: 240px;
     height: fit-content;
