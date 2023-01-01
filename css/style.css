@@ -2,7 +2,7 @@ body {
     display: grid;
     row-gap: 0px;
     column-gap: 0px;
-    background-image: url('../resources/images/hq/dark.jpg');
+    background-image: url('../resources/images/hq/dark.webp');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -94,7 +94,7 @@ body {
     border-width: 2px;
     border-radius: 10px;
     background: linear-gradient(to right, #000000, #30000057);
-    background-image: url('../resources/images/PdGN.gif');
+    background-image: url('../resources/images/PdGN2.gif');
     background-size: contain;
     background-position: center;
     background-blend-mode: darken;
@@ -668,7 +668,7 @@ body {
 
 .up:hover {
     background-color: transparent;
-    background-image: url('../resources/images/PdGN.gif');
+    background-image: url('../resources/images/PdGN2.gif');
     background-size: contain;
     background-position: center;
     background-blend-mode: darken;
@@ -676,7 +676,7 @@ body {
 
 .up2:hover {
     background-color: transparent;
-    background-image: url('../resources/images/PdGN.gif');
+    background-image: url('../resources/images/PdGN2.gif');
     background-size: contain;
     background-position: center;
     background-blend-mode: darken;
@@ -684,7 +684,7 @@ body {
 
 .up3:hover {
     background-color: transparent;
-    background-image: url('../resources/images/PdGN.gif');
+    background-image: url('../resources/images/PdGN2.gif');
     background-size: contain;
     background-position: center;
     background-blend-mode: darken;
