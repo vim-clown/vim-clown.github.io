@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="web development is hard">
+      <meta name="author" content="vim-clown">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0">
+      <link rel="stylesheet" , href="css/style.css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chivo+Mono">
+      <title>Starting...</title>
+      <link rel="icon" href="resources/icons/icons8-clown-64 (black).png" type="image/icon type">
+</head>
+
+<body>
+      <h1 class="title">~/vim-clown</h1>
+      <img class="icon" src="resources/images/blf.ico" ondblclick="showLinks()" />
+      <h7 class="title2">links</h7>
+      <fieldset class="buttons">
+            <legend class="up" onclick="showLinks()">↰</legend>
+            <ul>
+                  <button><img class="icon2" src="resources/images/blog-webp.webp" /><br>Blog 🔒</button>
+                  <button ondblclick="window.open('https://github.com/vim-clown')"><img class="icon2"
+                              src="resources/icons/icons8-github-480.png" /><br>Github</button>
+                  <button ondblclick="window.open('https://soundcloud.com/cetropos')"><img class="icon2"
+                              src="resources/icons/icons8-soundcloud-480.png" /><br>Soundcloud</button>
+                  <button ondblclick="window.open('https://hachyderm.io/@entity')"><img class="icon2"
+                              src="resources/icons/icons8-mastodon-512.png" /><br>Mastodon</button>
+            </ul><br>
+      </fieldset>
+      <img class="icon3" src="resources/images/blf.ico" ondblclick="showDocs()" />
+      <h7 class="title3">documents</h7>
+      <fieldset class="buttons2">
+            <legend class="up2" onclick="showDocs()">↰</legend>
+            <ul>
+                  <button ondblclick="showWindow5()"><img class="icon2"
+                              src="resources/images/backrooms.PNG" /><br>untitled.mp4</button>
+                  <button ondblclick="window.open('resources/docs/winXP_key.txt')"><img class="icon2"
+                              src="resources/images/txt.png" /><br>winXP.txt</button>
+                  <button ondblclick="sprinkleImages()"><img class="icon2"
+                              src="resources/images/sh.png" /><br>notworthit</button>
+                  <button ondblclick="showWindow4()"><img class="icon2"
+                              src="resources/images/mkm.PNG" /><br>makima_vibing.mp4</button>
+
+            </ul><br>
+      </fieldset>
+      <img class="icon4" src="resources/images/blf.ico" ondblclick="showMusic()" />
+      <fieldset class="buttons3">
+            <legend class="up3" onclick="showMusic()">↰</legend>
+            <ul>
+                  <button ondblclick="showSpotify2()"><img class="icon2"
+                              src="resources/images/playlist-webp.webp" /><br>Dark_Trap</button>
+                  <button ondblclick="showSpotify3()"><img class="icon2"
+                              src="resources/images/playlist-webp.webp" /><br>Circus</button>
+                  <button ondblclick="showSpotify()"><img class="icon2"
+                              src="resources/images/playlist-webp.webp" /><br>Witch_house_&_Wave</button>
+            </ul>
+      </fieldset>
+      <img class="icon5_1" src="resources/images/chad-webp.webp" onclick="showWindow1()" />
+      <img class="icon5_2" src="resources/images/chad-webp.webp" onclick="showWindow2()" />
+      <img class="icon5_3" src="resources/images/chad-webp.webp" onclick="showWindow3()" />
+      <img class="icon5_4" src="resources/images/chad-webp.webp" onclick="showWindow4()" />
+      <img class="icon5_5" src="resources/images/chad-webp.webp" onclick="showWindow5()" />
+      <h7 class="title4">music</h7>
+      <fieldset class="spotify" draggable="true">
+            <legend class="minimize" align="right" onclick="clearWindow1()">minimize</legend>
+            <iframe style="border-radius:12px"
+                  src="https://open.spotify.com/embed/playlist/0AZzZRxfPCdGcorLuYoY3h?utm_source=generator&theme=0"
+                  width="100%" height="380" frameBorder="0" allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </fieldset>
+      <fieldset class="spotify2" draggable="true">
+            <legend class="minimize" align="right" onclick="clearWindow2()">minimize</legend>
+            <iframe style="border-radius:12px"
+                  src="https://open.spotify.com/embed/playlist/51nIvcEghWgc5sx5z7fqlW?utm_source=generator&theme=0"
+                  width="100%" height="380" frameBorder="0" allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </fieldset>
+      <fieldset class="spotify3" draggable="true">
+            <legend class="minimize" align="right" onclick="clearWindow3()">minimize</legend>
+            <iframe style="border-radius:12px"
+                  src="https://open.spotify.com/embed/playlist/22y0QaF2ObCspOGT6BO7Xh?utm_source=generator&theme=0"
+                  width="100%" height="380" frameBorder="0" allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </fieldset>
+      <div class="overlay">
+            <img src="resources/images/hq/splash2.webp" alt="starting...">
+            <div class="wait-prompt">
+                  starting...
+            </div>
+            <div class="wait-sp">
+                  <img src="resources/images/PdGN2.gif">
+                  <div class="in-sp">
+                        <img src="resources/images/spider2.gif">
+                  </div>
+            </div>
+      </div>
+
+      <fieldset class="field">
+            <legend class="minimize2" align="right" onclick="quitWindow()">X</legend>
+            <legend class="quit" align="left" onclick="clearWindow4()">-</legend>
+            <video class="vibing" width="300" controls>
+                  <source src="resources/videos/vibing.mp4" type="video/mp4">
+            </video>
+      </fieldset>
+      <fieldset class="field2">
+            <legend class="minimize2" align="right" onclick="quitWindow2()">X</legend>
+            <legend class="quit" align="left" onclick="clearWindow5()">-</legend>
+            <video class="backrooms" width="300" controls>
+                  <source src="resources/videos/TROLLFACE CREATURE INSIDE BACKROOMS (VHS tape).mp4" type="video/mp4">
+            </video>
+      </fieldset>
+
+      <script defer src="scripts/splash.js"></script>
+      <script defer src="scripts/folders.js"></script>
+      <script defer src="scripts/player.js"></script>
+      <script defer src="scripts/flop.js"></script>
+</body>
+
+</html>
